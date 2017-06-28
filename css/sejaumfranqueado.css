@@ -1,0 +1,5280 @@
+@media (min-width:1279px) and (min-device-width:1279px) and (max-width:2460px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+      border-bottom: 1px solid #979796;
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:1050px;
+      margin-top:30px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:100px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:110px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left: 1000px;
+      margin-top: 110px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:350px;
+      margin-top:150px;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width: 1310px;
+      height: 350px;
+      margin-left: -660px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    /* SEJA UM FRANQUEADO INTRODUCAO  */
+    section#franqueado-introducao{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:500px;
+    }
+
+    article#franquead-introducao{
+      width: 1270px;
+      height: 600px;
+      margin-left: -640px;
+    }
+
+    div#franquead-introducao-bg{
+      position: absolute;
+      float: left;
+      width:620px;
+      height: 320px;
+      background-color:#fbf4ed;
+      margin-left:180px;
+    }
+
+    p.franqueado-title{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:40px;
+      margin-left:40px;
+    }
+
+    div#divider-1{
+      position: absolute;
+      margin-top:130px;
+      width: 70px;
+      height:2px;
+      margin-left:40px;
+      background-color: #000;
+    }
+
+    p.franqueado-into-text-1{
+      position: absolute;
+      float: left;
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 40px;
+      margin-top:150px;
+    }
+
+    p.franqueado-introducao-border-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:400;
+      text-transform: uppercase;
+      margin-top: 300px;
+      text-align: left;
+      margin-left:600px;
+      z-index: 10;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    /* FRANQUEADO PLANO DE NEGOCIOS */
+    section#franqueado-plano-de-negocios{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:980px;
+    }
+
+    article#franqueado-plano-de-negocios{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-1{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 400px;
+      margin-left: 250px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: relative;
+      float: right;
+      margin-right:170px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top: 20px;
+    }
+
+    div#divider-2{
+      position: relative;
+      float: right;
+      margin-top:-270px;
+      width: 70px;
+      height:2px;
+      margin-right:366px;
+      background-color: #000;
+    }
+
+    p.franqueado-plano-de-negocios-text{
+      position: relative;
+      float: right;
+      font-size: 12px;
+      font-weight: 300;
+      margin-right:158px;
+      margin-top: -230px;
+      line-height: 180%;
+    }
+
+    p.info-adicional{
+      position: relative;
+      float: right;
+      font-size: 10px;
+      font-weight: 300;
+      margin-right:172px;
+      margin-top: -40px;
+      line-height: 180%;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO */
+    section#franqueado-cadastro{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 1400px;
+    }
+
+    article#franqueado-cadastro{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-2{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 850px;
+      margin-left: 210px;
+    }
+
+    img.franqueado-image-2{
+      position: relative;
+      float: right;
+    }
+
+    p.franqueado-cadastro-title{
+      position: relative;
+      float: right;
+      margin-right:-300px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:400px;
+    }
+
+    div#divider-3{
+      position: relative;
+      float: right;
+      margin-top:460px;
+      width: 70px;
+      height:2px;
+      margin-right:-175px;
+      background-color: #000;
+    }
+
+    p.franqueado-cadastro-text-1{
+      position: relative;
+      float: right;
+      margin-right:-435px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:490px;
+    }
+
+    p.franqueado-cadastro-text-2{
+      position: relative;
+      float: right;
+      margin-right:-395px;
+      font-size: 12px;
+      font-weight:600;
+      line-height: 120%;
+      margin-top:540px;
+    }
+
+    p.franqueado-cadastro-text-3{
+      position: relative;
+      float: right;
+      margin-right:-563px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:580px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:350px;
+      height:150px;
+      border:2px solid #000;
+      margin-top:90px;
+      margin-left:50px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      line-height:450%;
+      margin-left:55px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:20px;
+      margin-top:53px;
+      margin-left: 150px;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:2200px;
+      border-top: 1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 1270px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:70px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      font-size: 11px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left: 70px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:400px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-410px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -300px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:1020px) and (min-device-width:1020px) and (max-width:1278px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 940px;
+      height: 80px;
+      margin-left: -470px;
+      border-bottom: 1px solid #979796;
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:710px;
+      margin-top:30px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    div.menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:100px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:110px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left: 690px;
+      margin-top: 110px;
+      text-transform: uppercase;
+      font-weight: 300;
+      width: 500px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:350px;
+      margin-top:150px;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width: 940px;
+      height: 350px;
+      margin-left: -470px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    /* SEJA UM FRANQUEADO INTRODUCAO  */
+    section#franqueado-introducao{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:500px;
+    }
+
+    article#franquead-introducao{
+      width: 1270px;
+      height: 600px;
+      margin-left: -640px;
+    }
+
+    div#franquead-introducao-bg{
+      position: absolute;
+      float: left;
+      width:620px;
+      height: 320px;
+      background-color:#fbf4ed;
+      margin-left:180px;
+    }
+
+    p.franqueado-title{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:40px;
+      margin-left:40px;
+    }
+
+    div#divider-1{
+      position: absolute;
+      margin-top:130px;
+      width: 70px;
+      height:2px;
+      margin-left:40px;
+      background-color: #000;
+    }
+
+    p.franqueado-into-text-1{
+      position: absolute;
+      float: left;
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 40px;
+      margin-top:150px;
+    }
+
+    p.franqueado-introducao-border-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:400;
+      text-transform: uppercase;
+      margin-top: 300px;
+      text-align: left;
+      margin-left:600px;
+      z-index: 10;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    /* FRANQUEADO PLANO DE NEGOCIOS */
+    section#franqueado-plano-de-negocios{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:980px;
+    }
+
+    article#franqueado-plano-de-negocios{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-1{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 400px;
+      margin-left: 230px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: relative;
+      float: right;
+      margin-right:170px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top: 20px;
+    }
+
+    div#divider-2{
+      position: relative;
+      float: right;
+      margin-top:-270px;
+      width: 70px;
+      height:2px;
+      margin-right:366px;
+      background-color: #000;
+    }
+
+    p.franqueado-plano-de-negocios-text{
+      position: relative;
+      float: right;
+      font-size: 12px;
+      font-weight: 300;
+      margin-right:158px;
+      margin-top: -230px;
+      line-height: 180%;
+    }
+
+    p.info-adicional{
+      position: relative;
+      float: right;
+      font-size: 10px;
+      font-weight: 300;
+      margin-right:172px;
+      margin-top: -40px;
+      line-height: 180%;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO */
+    section#franqueado-cadastro{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 1400px;
+    }
+
+    article#franqueado-cadastro{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-2{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 850px;
+      margin-left:110px;
+    }
+
+    img.franqueado-image-2{
+      position: relative;
+      float: right;
+    }
+
+    p.franqueado-cadastro-title{
+      position: relative;
+      float: right;
+      margin-right:-300px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:400px;
+    }
+
+    div#divider-3{
+      position: relative;
+      float: right;
+      margin-top:460px;
+      width: 70px;
+      height:2px;
+      margin-right:-175px;
+      background-color: #000;
+    }
+
+    p.franqueado-cadastro-text-1{
+      position: relative;
+      float: right;
+      margin-right:-435px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:490px;
+    }
+
+    p.franqueado-cadastro-text-2{
+      position: relative;
+      float: right;
+      margin-right:-395px;
+      font-size: 12px;
+      font-weight:600;
+      line-height: 120%;
+      margin-top:540px;
+    }
+
+    p.franqueado-cadastro-text-3{
+      position: relative;
+      float: right;
+      margin-right:-563px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:580px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:350px;
+      height:150px;
+      border:2px solid #000;
+      margin-top:90px;
+      margin-left:50px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      line-height:450%;
+      margin-left:55px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:20px;
+      margin-top:53px;
+      margin-left: 150px;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:2200px;
+      border-top:1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:970px) and (min-device-width:970px) and (max-width:1019px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 940px;
+      height: 80px;
+      margin-left: -470px;
+      border-bottom: 1px solid #979796;
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:710px;
+      margin-top:30px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    div.menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:100px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:110px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left: 690px;
+      margin-top: 110px;
+      text-transform: uppercase;
+      font-weight: 300;
+      width: 500px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:350px;
+      margin-top:150px;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width: 940px;
+      height: 350px;
+      margin-left: -470px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    /* SEJA UM FRANQUEADO INTRODUCAO  */
+    section#franqueado-introducao{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:500px;
+    }
+
+    article#franquead-introducao{
+      width: 1270px;
+      height: 600px;
+      margin-left: -640px;
+    }
+
+    div#franquead-introducao-bg{
+      position: absolute;
+      float: left;
+      width:620px;
+      height: 320px;
+      background-color:#fbf4ed;
+      margin-left:180px;
+    }
+
+    p.franqueado-title{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:40px;
+      margin-left:40px;
+    }
+
+    div#divider-1{
+      position: absolute;
+      margin-top:130px;
+      width: 70px;
+      height:2px;
+      margin-left:40px;
+      background-color: #000;
+    }
+
+    p.franqueado-into-text-1{
+      position: absolute;
+      float: left;
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 40px;
+      margin-top:150px;
+    }
+
+    p.franqueado-introducao-border-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:400;
+      text-transform: uppercase;
+      margin-top: 300px;
+      text-align: left;
+      margin-left:600px;
+      z-index: 10;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    /* FRANQUEADO PLANO DE NEGOCIOS */
+    section#franqueado-plano-de-negocios{
+      position: absolute;
+      width: 100%;
+      height:500px;
+      margin-top:980px;
+    }
+
+    article#franqueado-plano-de-negocios{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-1{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 400px;
+      margin-left: 210px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: relative;
+      float: right;
+      margin-right:170px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top: 20px;
+    }
+
+    div#divider-2{
+      position: relative;
+      float: right;
+      margin-top:-270px;
+      width: 70px;
+      height:2px;
+      margin-right:366px;
+      background-color: #000;
+    }
+
+    p.franqueado-plano-de-negocios-text{
+      position: relative;
+      float: right;
+      font-size: 12px;
+      font-weight: 300;
+      margin-right:158px;
+      margin-top: -230px;
+      line-height: 180%;
+    }
+
+    p.info-adicional{
+      position: relative;
+      float: right;
+      font-size: 10px;
+      font-weight: 300;
+      margin-right:172px;
+      margin-top: -40px;
+      line-height: 180%;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO */
+    section#franqueado-cadastro{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 1400px;
+    }
+
+    article#franqueado-cadastro{
+      width: 1270px;
+      height:500px;
+      margin-left: -640px;
+    }
+
+    figure#franqueado-image-2{
+      position: absolute;
+      float: left;
+      width: 1000px;
+      height: 850px;
+      margin-left:100px;
+    }
+
+    img.franqueado-image-2{
+      position: relative;
+      float: right;
+    }
+
+    p.franqueado-cadastro-title{
+      position: relative;
+      float: right;
+      margin-right:-250px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top:400px;
+    }
+
+    div#divider-3{
+      position: relative;
+      float: right;
+      margin-top:460px;
+      width: 70px;
+      height:2px;
+      margin-right:-123px;
+      background-color: #000;
+    }
+
+    p.franqueado-cadastro-text-1{
+      position: relative;
+      float: right;
+      margin-right:-385px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:490px;
+    }
+
+    p.franqueado-cadastro-text-2{
+      position: relative;
+      float: right;
+      margin-right:-345px;
+      font-size: 12px;
+      font-weight:600;
+      line-height: 120%;
+      margin-top:540px;
+    }
+
+    p.franqueado-cadastro-text-3{
+      position: relative;
+      float: right;
+      margin-right:-510px;
+      font-size: 12px;
+      font-weight:300;
+      line-height: 120%;
+      margin-top:580px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:350px;
+      height:150px;
+      border:2px solid #000;
+      margin-top:90px;
+      margin-left:80px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 320px;
+      height: 120px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      line-height:450%;
+      margin-left:55px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:20px;
+      margin-top:53px;
+      margin-left: 150px;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:2200px;
+      border-top:1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:760px) and (min-device-width:760px) and (max-width:969px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:99999999;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -350px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* FRANQUEADO INTRODUCAO RESPONSIVE */
+    section#franqueado-introducao-responsive{
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      background-color:#fbf4ed;
+      margin-top:0px;
+    }
+
+    article#franqueado-introducao-responsive{
+      width:650px;
+      height: 400px;
+      margin-left:-325px;
+    }
+
+    div#franqueado-introducao-responsive-infos{
+      position: absolute;
+      float: left;
+      margin-top:80px;
+      margin-left:80px;
+    }
+
+    p.franqueado-introducao-responsive-title{
+      position: relative;
+      float: left;
+      text-transform: uppercase;
+      font-size:24px;
+      font-weight: 400;
+      line-height:100%;
+    }
+
+    div#divider-responsive-1{
+      position:absolute;
+      float:left;
+      margin-top:100px;
+      width: 70px;
+      height:2px;
+      margin-left:0px;
+      background-color: #000;
+    }
+
+    p.franqueado-introducao-responsive-text{
+      position: absolute;
+      float: left;
+      font-size:14px;
+      font-weight:300;
+      line-height:100%;
+      margin-top:150px;
+      margin-left:0px;
+    }
+
+    p.franqueado-introducao-responsive-text-2{
+      position: absolute;
+      float:left;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-top:380px;
+      width:400px;
+      margin-left:100px;
+      border:2px solid #000;
+      padding: 30px 30px 30px 30px;
+    }
+
+    section#franqueado-plano-de-negocios-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+    }
+
+    div#plano-de-negocios-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_03.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:650px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:-320px;
+    }
+
+   div#franqueado-cadastro-divider{
+      position: absolute;
+      width:650px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:0px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:30px;
+      margin-top: 50px;
+      margin-left:-300px;
+    }
+
+    p.franqueado-plano-de-negocios-responsive-text{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:18px;
+      margin-top:650px;
+      margin-left:-300px;
+    }
+
+    p.info-adicional-responsive{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:18px;
+      margin-top:950px;
+      margin-left:-300px;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO RESPONSIVE   */
+    section#franqueado-cadastro-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+      margin-top:1650px;
+    }
+
+    article#franqueado-cadastro-responsive{
+      width:650px;
+      height:1050px;
+      margin-left:-325px;
+    }
+
+    div#cadastro-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_02.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+
+
+    p.franqueado-cadastro-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:30px;
+      margin-top: 50px;
+      margin-left:30px;
+    }
+
+    p.franqueado-cadastro-responsive-text-1{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:120%;
+      font-size:18px;
+      margin-top:650px;
+      margin-left:50px;
+    }
+
+    p.franqueado-cadastro-responsive-text-2{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:600;
+      font-size:18px;
+      margin-top:720px;
+      margin-left:50px;
+    }
+
+    p.franqueado-cadastro-responsive-text-3{
+      position: absolute;
+      float: left;
+      width:550px;
+      font-weight:300;
+      line-height:200%;
+      font-size:18px;
+      margin-top:770px;
+      margin-left:50px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:500px;
+      height:250px;
+      border:2px solid #000;
+      margin-top:1300px;
+      margin-left:70px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 470px;
+      height: 220px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 470px;
+      height: 220px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 24px;
+      text-align: center;
+      line-height:450%;
+      margin-left:58px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:40px;
+      margin-top:88px;
+      margin-left:220px;
+    }
+
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:3400px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 660px;
+      height:850px;
+      margin-left:-330px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:24px;
+      font-weight: 300;
+      margin-top:120px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:630px) and (min-device-width:630px) and (max-width:759px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -280px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* FRANQUEADO INTRODUCAO RESPONSIVE */
+    section#franqueado-introducao-responsive{
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      background-color:#fbf4ed;
+      margin-top:0px;
+    }
+
+    article#franqueado-introducao-responsive{
+      width:650px;
+      height: 400px;
+      margin-left:-325px;
+    }
+
+    div#franqueado-introducao-responsive-infos{
+      position: absolute;
+      float: left;
+      margin-top:80px;
+      margin-left:80px;
+    }
+
+    p.franqueado-introducao-responsive-title{
+      position: relative;
+      float: left;
+      text-transform: uppercase;
+      font-size:24px;
+      font-weight: 400;
+      line-height:100%;
+    }
+
+    div#divider-responsive-1{
+      position:absolute;
+      float:left;
+      margin-top:100px;
+      width: 70px;
+      height:2px;
+      margin-left:0px;
+      background-color: #000;
+    }
+
+    p.franqueado-introducao-responsive-text{
+      position: absolute;
+      float: left;
+      font-size:14px;
+      font-weight:300;
+      line-height:100%;
+      margin-top:150px;
+      margin-left:0px;
+    }
+
+    p.franqueado-introducao-responsive-text-2{
+      position: absolute;
+      float:left;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-top:380px;
+      width:400px;
+      margin-left:100px;
+      border:2px solid #000;
+      padding: 30px 30px 30px 30px;
+    }
+
+    section#franqueado-plano-de-negocios-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+    }
+
+    div#plano-de-negocios-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_03.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:650px;
+      height:7px;
+      margin-top: 143px;
+      background-color: #000;
+      z-index: 10;
+      margin-left:55px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:30px;
+      margin-top: 50px;
+      margin-left:-250px;
+    }
+
+    p.franqueado-plano-de-negocios-responsive-text{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:16px;
+      margin-top:650px;
+      margin-left:-250px;
+    }
+
+    p.info-adicional-responsive{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:16px;
+      margin-top:920px;
+      margin-left:-250px;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO RESPONSIVE   */
+    section#franqueado-cadastro-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+      margin-top:1650px;
+    }
+
+    article#franqueado-cadastro-responsive{
+      width:650px;
+      height:1050px;
+      margin-left:-325px;
+    }
+
+    div#cadastro-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_02.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:550px;
+      height:7px;
+      margin-top: 143px;
+      background-color: #000;
+      z-index: 10;
+      margin-left:-275px;
+    }
+
+
+      div#franqueado-cadastro-divider{
+        position: absolute;
+        width:550px;
+        height:7px;
+        margin-top: 143px;
+        background-color:#000;
+        z-index: 10;
+        margin-left:50px;
+      }
+
+    p.franqueado-cadastro-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:30px;
+      margin-top: 50px;
+      margin-left:80px;
+    }
+
+    p.franqueado-cadastro-responsive-text-1{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:120%;
+      font-size:16px;
+      margin-top:650px;
+      margin-left:80px;
+    }
+
+    p.franqueado-cadastro-responsive-text-2{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:600;
+      font-size:16px;
+      margin-top:720px;
+      margin-left:80px;
+    }
+
+    p.franqueado-cadastro-responsive-text-3{
+      position: absolute;
+      float: left;
+      width:470px;
+      font-weight:300;
+      line-height:200%;
+      font-size:16px;
+      margin-top:770px;
+      margin-left:80px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:500px;
+      height:250px;
+      border:2px solid #000;
+      margin-top:1300px;
+      margin-left:70px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 470px;
+      height: 220px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 470px;
+      height: 220px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 24px;
+      text-align: center;
+      line-height:450%;
+      margin-left:58px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:40px;
+      margin-top:88px;
+      margin-left:220px;
+    }
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:3400px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 550px;
+      height:850px;
+      margin-left:-280px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-top:110px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:470px) and (min-device-width:470px) and (max-width:629px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -210px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* FRANQUEADO INTRODUCAO RESPONSIVE */
+    section#franqueado-introducao-responsive{
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      background-color:#fbf4ed;
+      margin-top:0px;
+    }
+
+    article#franqueado-introducao-responsive{
+      width:420px;
+      height:400px;
+      margin-left:-210px;
+    }
+
+    div#franqueado-introducao-responsive-infos{
+      position: absolute;
+      float: left;
+      margin-top:80px;
+      margin-left:80px;
+    }
+
+    p.franqueado-introducao-responsive-title{
+      position: relative;
+      float: left;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 400;
+      line-height:100%;
+      margin-left: -70px;
+    }
+
+    div#divider-responsive-1{
+      position:absolute;
+      float:left;
+      margin-top:100px;
+      width: 70px;
+      height:2px;
+      margin-left:-70px;
+      background-color: #000;
+    }
+
+    p.franqueado-introducao-responsive-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:300;
+      line-height:100%;
+      margin-top:150px;
+      margin-left:-70px;
+    }
+
+    p.franqueado-introducao-responsive-text-2{
+      position: absolute;
+      float:left;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-top:380px;
+      width:350px;
+      margin-left:0px;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    section#franqueado-plano-de-negocios-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+    }
+
+    div#plano-de-negocios-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_03.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:380px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:-185px;
+    }
+
+    div#franqueado-cadastro-divider{
+      position: absolute;
+      width:380px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:90px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:24px;
+      margin-top:70px;
+      margin-left:-180px;
+    }
+
+    p.franqueado-plano-de-negocios-responsive-text{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:14px;
+      margin-top:650px;
+      margin-left:-200px;
+    }
+
+    p.info-adicional-responsive{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:14px;
+      margin-top:920px;
+      margin-left:-200px;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO RESPONSIVE   */
+    section#franqueado-cadastro-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+      margin-top:1650px;
+    }
+
+    article#franqueado-cadastro-responsive{
+      width:420px;
+      height:1050px;
+      margin-left:-280px;
+    }
+
+    div#cadastro-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_02.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+
+
+    p.franqueado-cadastro-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:24px;
+      margin-top:70px;
+      margin-left:120px;
+    }
+
+    p.franqueado-cadastro-responsive-text-1{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:120%;
+      font-size:14px;
+      margin-top:650px;
+      margin-left:80px;
+    }
+
+    p.franqueado-cadastro-responsive-text-2{
+      position: absolute;
+      float: left;
+      width:420px;
+      font-weight:600;
+      font-size:14px;
+      margin-top:720px;
+      margin-left:80px;
+    }
+
+    p.franqueado-cadastro-responsive-text-3{
+      position: absolute;
+      float: left;
+      width:400px;
+      font-weight:300;
+      line-height:200%;
+      font-size:14px;
+      margin-top:770px;
+      margin-left:80px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:380px;
+      height:200px;
+      border:2px solid #000;
+      margin-top:1200px;
+      margin-left:87px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 350px;
+      height: 170px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width: 350px;
+      height: 170px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size:18px;
+      text-align: center;
+      line-height:450%;
+      margin-left:40px;
+      margin-top:5px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:30px;
+      margin-top:72px;
+      margin-left:160px;
+    }
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:3200px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:410px;
+      height:810px;
+      margin-left:-210px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:20px;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-40px;
+    }
+}
+
+@media (min-width:360px) and (min-device-width:360px) and (max-width:469px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -160px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* FRANQUEADO INTRODUCAO RESPONSIVE */
+    section#franqueado-introducao-responsive{
+      position: absolute;
+      width: 100%;
+      height:320px;
+      background-color:#fbf4ed;
+      margin-top:0px;
+    }
+
+    article#franqueado-introducao-responsive{
+      width:420px;
+      height:400px;
+      margin-left:-210px;
+    }
+
+    div#franqueado-introducao-responsive-infos{
+      position: absolute;
+      float: left;
+      margin-top:80px;
+      margin-left:80px;
+    }
+
+    p.franqueado-introducao-responsive-title{
+      position: relative;
+      float: left;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight:600;
+      line-height:100%;
+      margin-left: -20px;
+      margin-top:-30px;
+    }
+
+    div#divider-responsive-1{
+      position:absolute;
+      float:left;
+      margin-top:40px;
+      width: 70px;
+      height:2px;
+      margin-left:-20px;
+      background-color: #000;
+    }
+
+    p.franqueado-introducao-responsive-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:300;
+      line-height:100%;
+      margin-top:80px;
+      margin-left:-20px;
+    }
+
+    p.franqueado-introducao-responsive-text-2{
+      position: absolute;
+      float:left;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-top:300px;
+      width:180px;
+      margin-left:80px;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    section#franqueado-plano-de-negocios-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:420px;
+    }
+
+    div#plano-de-negocios-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_03.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:300px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:-150px;
+    }
+
+    div#franqueado-cadastro-divider{
+      position: absolute;
+      width:300px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:130px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:18px;
+      margin-top:80px;
+      margin-left:-130px;
+    }
+
+    p.franqueado-plano-de-negocios-responsive-text{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:12px;
+      margin-top:650px;
+      margin-left:-150px;
+    }
+
+    p.info-adicional-responsive{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:12px;
+      margin-top:850px;
+      margin-left:-150px;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO RESPONSIVE   */
+    section#franqueado-cadastro-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+      margin-top:1300px;
+    }
+
+    article#franqueado-cadastro-responsive{
+      width:420px;
+      height:1050px;
+      margin-left:-280px;
+    }
+
+    div#cadastro-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_02.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+
+
+    p.franqueado-cadastro-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:18px;
+      margin-top:80px;
+      margin-left:150px;
+    }
+
+    p.franqueado-cadastro-responsive-text-1{
+      position: absolute;
+      float: left;
+      width:205px;
+      font-weight:300;
+      line-height:120%;
+      font-size:12px;
+      margin-top:650px;
+      margin-left:140px;
+    }
+
+    p.franqueado-cadastro-responsive-text-2{
+      position: absolute;
+      float: left;
+      width:250px;
+      font-weight:600;
+      font-size:12px;
+      margin-top:740px;
+      margin-left:140px;
+    }
+
+    p.franqueado-cadastro-responsive-text-3{
+      position: absolute;
+      float: left;
+      width:250px;
+      font-weight:300;
+      line-height:200%;
+      font-size:12px;
+      margin-top:810px;
+      margin-left:140px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:300px;
+      height:160px;
+      border:2px solid #000;
+      margin-top:1250px;
+      margin-left:127px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 270px;
+      height: 130px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width:270px;
+      height: 130px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size:14px;
+      text-align: center;
+      line-height:450%;
+      margin-left:30px;
+      margin-top:5px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:20px;
+      margin-top:58px;
+      margin-left:130px;
+    }
+
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:2800px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}
+
+@media (min-width:320px) and (min-device-width:320px) and (max-width:359px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -140px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+    
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bgfranqueado_01.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* FRANQUEADO INTRODUCAO RESPONSIVE */
+    section#franqueado-introducao-responsive{
+      position: absolute;
+      width: 100%;
+      height:320px;
+      background-color:#fbf4ed;
+      margin-top:0px;
+    }
+
+    article#franqueado-introducao-responsive{
+      width:420px;
+      height:400px;
+      margin-left:-210px;
+    }
+
+    div#franqueado-introducao-responsive-infos{
+      position: absolute;
+      float: left;
+      margin-top:80px;
+      margin-left:80px;
+    }
+
+    p.franqueado-introducao-responsive-title{
+      position: relative;
+      float: left;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight:600;
+      line-height:100%;
+      margin-left: -15px;
+      margin-top:-30px;
+    }
+
+    div#divider-responsive-1{
+      position:absolute;
+      float:left;
+      margin-top:40px;
+      width: 70px;
+      height:2px;
+      margin-left:-15px;
+      background-color: #000;
+    }
+
+    p.franqueado-introducao-responsive-text{
+      position: absolute;
+      float: left;
+      font-size:12px;
+      font-weight:300;
+      line-height:100%;
+      margin-top:80px;
+      margin-left:-15px;
+    }
+
+    p.franqueado-introducao-responsive-text-2{
+      position: absolute;
+      float:left;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-top:300px;
+      width:180px;
+      margin-left:80px;
+      border:2px solid #000;
+      padding: 20px 20px 20px 20px;
+    }
+
+    section#franqueado-plano-de-negocios-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:420px;
+    }
+
+    div#plano-de-negocios-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_03.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    div#franqueado-introducao-divider{
+      position: absolute;
+      width:270px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:-135px;
+    }
+
+    div#franqueado-cadastro-divider{
+      position: absolute;
+      width:270px;
+      height:7px;
+      margin-top: 143px;
+      background-color:#000;
+      z-index: 10;
+      margin-left:145px;
+    }
+
+    p.franqueado-plano-de-negocios-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:18px;
+      margin-top:80px;
+      margin-left:-130px;
+    }
+
+    p.franqueado-plano-de-negocios-responsive-text{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:12px;
+      margin-top:650px;
+      margin-left:-150px;
+    }
+
+    p.info-adicional-responsive{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight:300;
+      line-height:200%;
+      font-size:11px;
+      margin-top:850px;
+      margin-left:-150px;
+      font-style: italic;
+      color:#8d8d8d;
+    }
+
+    /* FRANQUEADO CADASTRO RESPONSIVE   */
+    section#franqueado-cadastro-responsive{
+      position: absolute;
+      width:100%;
+      height:1050px;
+      margin-top:600px;
+      margin-top:1300px;
+    }
+
+    article#franqueado-cadastro-responsive{
+      width:420px;
+      height:1050px;
+      margin-left:-280px;
+    }
+
+    div#cadastro-bg{
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      margin-top: 150px;
+      background: url(../img/bgfranqueado_02.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    p.franqueado-cadastro-title{
+      position: absolute;
+      float: left;
+      width:500px;
+      font-weight: 600;
+      line-height: 100%;
+      font-size:18px;
+      margin-top:80px;
+      margin-left:150px;
+    }
+
+    p.franqueado-cadastro-responsive-text-1{
+      position: absolute;
+      float: left;
+      width:205px;
+      font-weight:300;
+      line-height:120%;
+      font-size:12px;
+      margin-top:650px;
+      margin-left:140px;
+    }
+
+    p.franqueado-cadastro-responsive-text-2{
+      position: absolute;
+      float: left;
+      width:250px;
+      font-weight:600;
+      font-size:12px;
+      margin-top:740px;
+      margin-left:140px;
+    }
+
+    p.franqueado-cadastro-responsive-text-3{
+      position: absolute;
+      float: left;
+      width:250px;
+      font-weight:300;
+      line-height:200%;
+      font-size:12px;
+      margin-top:810px;
+      margin-left:140px;
+    }
+
+    div#cadastro-click-border{
+      position: absolute;
+      float: left;
+      width:280px;
+      height:160px;
+      border:2px solid #000;
+      margin-top:1250px;
+      margin-left:138px;
+    }
+
+    div#cadastro-click-intro{
+      position: absolute;
+      float: left;
+      width: 250px;
+      height: 130px;
+      background-color: #f9efe6;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    div#cadastro-click-intro:hover{
+      position: absolute;
+      float: left;
+      width:270px;
+      height: 130px;
+      background-color: #ffe3ca;
+      margin-left:15px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: all 0.4s linear;
+    }
+
+    p.cadastro-click-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size:14px;
+      text-align: center;
+      line-height:450%;
+      margin-left:20px;
+      margin-top:5px;
+    }
+
+    .x{
+      position: absolute;
+      float: left;
+      width:20px;
+      margin-top:58px;
+      margin-left:118px;
+    }
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:2800px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}

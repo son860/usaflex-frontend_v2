@@ -1,0 +1,7217 @@
+@media (min-width:1279px) and (min-device-width:1279px) and (max-width:2460px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:1050px;
+      margin-top:30px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:100px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-640px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:400px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+
+   /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro{
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      background-color:#fbf4ed;
+      margin-top:360px;
+    }
+
+    figure#revistaflex-capas{
+      position: absolute;
+      float: left;
+      margin-left:-600px;
+      margin-top:-4px;
+    }
+
+    div#revista-flex-intro-infos{
+      position: absolute;
+      float: left;
+      margin-top:90px;
+      margin-left:-90px;
+    }
+
+    p.revista-flex-intro-title{
+      position: absolute;
+      float: left;
+      font-size: 24px;
+      font-weight: 600;
+      width: 400px;
+      text-transform: uppercase;
+      line-height: 100%;
+    }
+
+    a.btn-quero-me-cadastrar{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #000;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+    }
+
+    a.btn-quero-me-cadastrar:hover{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #8d8d8d;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+      transition: all 0.4s linear;
+    }
+
+    p.revista-flex-intro-border{
+      position: absolute;
+      float:left;
+      font-size: 14px;
+      text-transform: uppercase;
+      width:432px;
+      margin-top:250px;
+      border:2px solid #000;
+      padding: 30px 60px 30px 60px;
+      margin-left: -70px;
+    }
+
+    img.revistaflex-capas{
+      width:500px;
+    }
+
+    /* SESSAO DAS REVISTAS */
+    section#revistas-session{
+      position: absolute;
+      width: 100%;
+      height:1000px;
+      margin-top:1000px;
+    }
+
+    article#revistas-session{
+      position: absolute;
+      width: 1280px;
+      height:1000px;
+      margin-left:-640px;
+    }
+
+    div#edicoes-on-line{
+      position: absolute;
+      float:left;
+      width: 1070px;
+      height:1600px;
+      margin-left:110px;
+    }
+
+    div#edicoes-on-line-border{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    p.edicoes-on-line-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* Edicao 1 */
+    figure.edicao_1{
+      position: absolute;
+      float:left;
+    }
+
+    img.edicao_1{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_1_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 2 */
+    figure.edicao_2{
+      position: absolute;
+      float:left;
+      margin-left:300px;
+    }
+
+    img.edicao_2{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_2_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 3 */
+    figure.edicao_3{
+      position: absolute;
+      float:left;
+      margin-left:600px;
+    }
+
+    img.edicao_3{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_3_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 4 */
+    figure.edicao_4{
+      position: absolute;
+      float:left;
+      margin-left:900px;
+    }
+
+    img.edicao_4{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_4_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 5 */
+    figure.edicao_5{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:400px;
+    }
+
+    img.edicao_5{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_5_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 6 */
+    figure.edicao_6{
+      position: absolute;
+      float:left;
+      margin-left:300px;
+      margin-top:400px;
+    }
+
+    img.edicao_6{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_6_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 7 */
+    figure.edicao_7{
+      position: absolute;
+      float:left;
+      margin-left:600px;
+      margin-top:400px;
+    }
+
+    img.edicao_7{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_7_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 8 */
+    figure.edicao_8{
+      position: absolute;
+      float:left;
+      margin-left:900px;
+      margin-top:400px;
+    }
+
+    img.edicao_8{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_8_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 9 */
+    figure.edicao_9{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:800px;
+    }
+
+    img.edicao_9{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_9_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 10 */
+    figure.edicao_10{
+      position: absolute;
+      float:left;
+      margin-left:300px;
+      margin-top:800px;
+    }
+
+    img.edicao_10{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_10_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 11 */
+    figure.edicao_11{
+      position: absolute;
+      float:left;
+      margin-left:600px;
+      margin-top:800px;
+    }
+
+    img.edicao_11{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_11_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 12 */
+    figure.edicao_12{
+      position: absolute;
+      float:left;
+      margin-left:900px;
+      margin-top:800px;
+    }
+
+    img.edicao_12{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_12_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+
+    /* Edicao 13 */
+    figure.edicao_13{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:1200px;
+    }
+
+    img.edicao_13{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_13_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 14 */
+    figure.edicao_14{
+      position: absolute;
+      float:left;
+      margin-left:300px;
+      margin-top:1200px;
+    }
+
+    img.edicao_14{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_14_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* FORMULARIO DE CADASTRO */
+    section#cadastro-form{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      background-color: #fbf4ed;
+      margin-top:2700px;
+    }
+
+    div#cadastro-form-infos{
+      position: absolute;
+      float: left;
+      margin-left:-550px;
+      margin-top: 40px;
+    }
+
+    p.cadastro-form-title{
+      position: absolute;
+      float: left;
+      font-size: 18px;
+      width:500px;
+      font-weight: 600;
+    }
+
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    form.cadastro{
+      position: absolute;
+      float: left;
+      margin-top:120px;
+      margin-left:-550px;
+    }
+
+    p.cadastro-form-nome{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:-20px;
+    }
+
+    input.nome{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+    }
+
+    p.cadastro-form-email{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:30px;
+    }
+
+    input.endereco{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-endereco{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.email{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:50px;
+    }
+
+    p.cadastro-form-cidade{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left:430px;
+    }
+
+    input.cidade{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-telefone{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:8px;
+      margin-left: 430px;
+    }
+
+    input.telefone{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:100px;
+      margin-top:28px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-bairro{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.bairro{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-estado{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:15px;
+      margin-left:650px;
+    }
+
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:650px;
+      margin-top:37px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:100px;
+      height: 30px;
+    }
+
+    input.cep{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left: 230px;
+    }
+
+    p.cadastro-form-cep{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left: 230px;
+    }
+
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:3200px;
+    }
+
+    article#rodape-area{
+      width: 1270px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:70px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      font-size: 11px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left: 70px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:400px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-410px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -300px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:1020px) and (min-device-width:1020px) and (max-width:1278px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:900px;
+      margin-top:30px;
+    }
+
+    figure#logo{
+      position: absolute;
+      float: left;
+      margin-left:170px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:250px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-480px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:250px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+
+   /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro{
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      background-color:#fbf4ed;
+      margin-top:360px;
+    }
+
+    figure#revistaflex-capas{
+      position: absolute;
+      float: left;
+      margin-left:-500px;
+      margin-top:-4px;
+    }
+
+    div#revista-flex-intro-infos{
+      position: absolute;
+      float: left;
+      margin-top:90px;
+      margin-left:20px;
+    }
+
+    p.revista-flex-intro-title{
+      position: absolute;
+      float: left;
+      font-size: 24px;
+      font-weight: 600;
+      width: 400px;
+      text-transform: uppercase;
+      line-height: 100%;
+    }
+
+    a.btn-quero-me-cadastrar{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #000;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+    }
+
+    a.btn-quero-me-cadastrar:hover{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #8d8d8d;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+      transition: all 0.4s linear;
+    }
+
+    p.revista-flex-intro-border{
+      position: absolute;
+      float:left;
+      font-size: 14px;
+      text-transform: uppercase;
+      width:432px;
+      margin-top:250px;
+      border:2px solid #000;
+      padding: 30px 60px 30px 60px;
+      margin-left: -100px;
+    }
+
+    img.revistaflex-capas{
+      width:500px;
+    }
+
+    /* SESSAO DAS REVISTAS */
+    section#revistas-session{
+      position: absolute;
+      width: 100%;
+      height:1000px;
+      margin-top:1000px;
+    }
+
+    article#revistas-session{
+      position: absolute;
+      width: 1280px;
+      height:1000px;
+      margin-left:-640px;
+    }
+
+    div#edicoes-on-line{
+      position: absolute;
+      float:left;
+      width: 1070px;
+      height:1600px;
+      margin-left:180px;
+    }
+
+    div#edicoes-on-line-border{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    p.edicoes-on-line-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* Edicao 1 */
+    figure.edicao_1{
+      position: absolute;
+      float:left;
+    }
+
+    img.edicao_1{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_1_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 2 */
+    figure.edicao_2{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+    }
+
+    img.edicao_2{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_2_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 3 */
+    figure.edicao_3{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+    }
+
+    img.edicao_3{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_3_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 4 */
+    figure.edicao_4{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+    }
+
+    img.edicao_4{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_4_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 5 */
+    figure.edicao_5{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:400px;
+    }
+
+    img.edicao_5{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_5_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 6 */
+    figure.edicao_6{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:400px;
+    }
+
+    img.edicao_6{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_6_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 7 */
+    figure.edicao_7{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+      margin-top:400px;
+    }
+
+    img.edicao_7{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_7_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 8 */
+    figure.edicao_8{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+      margin-top:400px;
+    }
+
+    img.edicao_8{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_8_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 9 */
+    figure.edicao_9{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:800px;
+    }
+
+    img.edicao_9{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_9_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 10 */
+    figure.edicao_10{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:800px;
+    }
+
+    img.edicao_10{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_10_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 11 */
+    figure.edicao_11{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+      margin-top:800px;
+    }
+
+    img.edicao_11{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_11_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 12 */
+    figure.edicao_12{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+      margin-top:800px;
+    }
+
+    img.edicao_12{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_12_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+
+    /* Edicao 13 */
+    figure.edicao_13{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:1200px;
+    }
+
+    img.edicao_13{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_13_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 14 */
+    figure.edicao_14{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:1200px;
+    }
+
+    img.edicao_14{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_14_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* FORMULARIO DE CADASTRO */
+    section#cadastro-form{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      background-color: #fbf4ed;
+      margin-top:2700px;
+    }
+
+    div#cadastro-form-infos{
+      position: absolute;
+      float: left;
+      margin-left:-460px;
+      margin-top: 40px;
+    }
+
+    p.cadastro-form-title{
+      position: absolute;
+      float: left;
+      font-size: 18px;
+      width:500px;
+      font-weight: 600;
+    }
+
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    form.cadastro{
+      position: absolute;
+      float: left;
+      margin-top:120px;
+      margin-left:-460px;
+    }
+
+    p.cadastro-form-nome{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:-20px;
+    }
+
+    input.nome{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+    }
+
+    p.cadastro-form-email{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:30px;
+    }
+
+    input.endereco{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-endereco{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.email{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:50px;
+    }
+
+    p.cadastro-form-cidade{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left:430px;
+    }
+
+    input.cidade{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-telefone{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:8px;
+      margin-left: 430px;
+    }
+
+    input.telefone{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:100px;
+      margin-top:28px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-bairro{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.bairro{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-estado{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:15px;
+      margin-left:650px;
+    }
+
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:650px;
+      margin-top:37px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:100px;
+      height: 30px;
+    }
+
+    input.cep{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left: 230px;
+    }
+
+    p.cadastro-form-cep{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left: 230px;
+    }
+
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:3200px;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:970px) and (min-device-width:970px) and (max-width:1019px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:900px;
+      margin-top:30px;
+    }
+
+    figure#logo{
+      position: absolute;
+      float: left;
+      margin-left:170px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:250px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-450px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:250px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+
+   /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro{
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      background-color:#fbf4ed;
+      margin-top:360px;
+    }
+
+    figure#revistaflex-capas{
+      position: absolute;
+      float: left;
+      margin-left:-500px;
+      margin-top:-4px;
+    }
+
+    div#revista-flex-intro-infos{
+      position: absolute;
+      float: left;
+      margin-top:90px;
+      margin-left:20px;
+    }
+
+    p.revista-flex-intro-title{
+      position: absolute;
+      float: left;
+      font-size: 24px;
+      font-weight: 600;
+      width: 400px;
+      text-transform: uppercase;
+      line-height: 100%;
+    }
+
+    a.btn-quero-me-cadastrar{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #000;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+    }
+
+    a.btn-quero-me-cadastrar:hover{
+      position: absolute;
+      margin-top: 130px;
+      width:172px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color:#fff;
+      font-weight:400;
+      background-color: #8d8d8d;
+      padding: 8px 20px 8px 20px;
+      font-size: 14px;
+      transition: all 0.4s linear;
+    }
+
+    p.revista-flex-intro-border{
+      position: absolute;
+      float:left;
+      font-size: 14px;
+      text-transform: uppercase;
+      width:432px;
+      margin-top:250px;
+      border:2px solid #000;
+      padding: 30px 60px 30px 60px;
+      margin-left: -100px;
+    }
+
+    img.revistaflex-capas{
+      width:500px;
+    }
+
+    /* SESSAO DAS REVISTAS */
+    section#revistas-session{
+      position: absolute;
+      width: 100%;
+      height:1000px;
+      margin-top:1000px;
+    }
+
+    article#revistas-session{
+      position: absolute;
+      width: 1280px;
+      height:1000px;
+      margin-left:-640px;
+    }
+
+    div#edicoes-on-line{
+      position: absolute;
+      float:left;
+      width: 1070px;
+      height:1600px;
+      margin-left:180px;
+    }
+
+    div#edicoes-on-line-border{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    p.edicoes-on-line-text{
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* Edicao 1 */
+    figure.edicao_1{
+      position: absolute;
+      float:left;
+    }
+
+    img.edicao_1{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_1_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 2 */
+    figure.edicao_2{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+    }
+
+    img.edicao_2{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_2_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 3 */
+    figure.edicao_3{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+    }
+
+    img.edicao_3{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_3_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 4 */
+    figure.edicao_4{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+    }
+
+    img.edicao_4{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_4_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 5 */
+    figure.edicao_5{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:400px;
+    }
+
+    img.edicao_5{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_5_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 6 */
+    figure.edicao_6{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:400px;
+    }
+
+    img.edicao_6{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_6_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 7 */
+    figure.edicao_7{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+      margin-top:400px;
+    }
+
+    img.edicao_7{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_7_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 8 */
+    figure.edicao_8{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+      margin-top:400px;
+    }
+
+    img.edicao_8{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_8_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 9 */
+    figure.edicao_9{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:800px;
+    }
+
+    img.edicao_9{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_9_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 10 */
+    figure.edicao_10{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:800px;
+    }
+
+    img.edicao_10{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_10_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 11 */
+    figure.edicao_11{
+      position: absolute;
+      float:left;
+      margin-left:500px;
+      margin-top:800px;
+    }
+
+    img.edicao_11{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_11_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 12 */
+    figure.edicao_12{
+      position: absolute;
+      float:left;
+      margin-left:750px;
+      margin-top:800px;
+    }
+
+    img.edicao_12{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_12_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+
+    /* Edicao 13 */
+    figure.edicao_13{
+      position: absolute;
+      float:left;
+      margin-left:0px;
+      margin-top:1200px;
+    }
+
+    img.edicao_13{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_13_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* Edicao 14 */
+    figure.edicao_14{
+      position: absolute;
+      float:left;
+      margin-left:250px;
+      margin-top:1200px;
+    }
+
+    img.edicao_14{
+      position: absolute;
+      margin-top:80px;
+    }
+
+    p.edicao_14_text{
+      position: absolute;
+      margin-top:340px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left:8px;
+      width: 350px;
+    }
+
+    /* FORMULARIO DE CADASTRO */
+    section#cadastro-form{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      background-color: #fbf4ed;
+      margin-top:2700px;
+    }
+
+    div#cadastro-form-infos{
+      position: absolute;
+      float: left;
+      margin-left:-460px;
+      margin-top: 40px;
+    }
+
+    p.cadastro-form-title{
+      position: absolute;
+      float: left;
+      font-size: 18px;
+      width:500px;
+      font-weight: 600;
+    }
+
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:30px;
+    }
+
+    form.cadastro{
+      position: absolute;
+      float: left;
+      margin-top:120px;
+      margin-left:-460px;
+    }
+
+    p.cadastro-form-nome{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:-20px;
+    }
+
+    input.nome{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+    }
+
+    p.cadastro-form-email{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:30px;
+    }
+
+    input.endereco{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-endereco{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.email{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:400px;
+      margin-top:50px;
+    }
+
+    p.cadastro-form-cidade{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left:430px;
+    }
+
+    input.cidade{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-telefone{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:8px;
+      margin-left: 430px;
+    }
+
+    input.telefone{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:100px;
+      margin-top:28px;
+      margin-left:430px;
+    }
+
+    p.cadastro-form-bairro{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:60px;
+    }
+
+    input.bairro{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:80px;
+    }
+
+    p.cadastro-form-estado{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:15px;
+      margin-left:650px;
+    }
+
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:650px;
+      margin-top:37px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:100px;
+      height: 30px;
+    }
+
+    input.cep{
+      position: absolute;
+      background:none;
+      border:1px solid #000;
+      height:30px;
+      width:200px;
+      margin-top:58px;
+      margin-left: 230px;
+    }
+
+    p.cadastro-form-cep{
+      position: absolute;
+      font-size: 12px;
+      font-weight:600;
+      margin-top:38px;
+      margin-left: 230px;
+    }
+
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:90px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:3200px;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:760px) and (min-device-width:760px) and (max-width:969px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:99999999;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -350px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:40px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    section#revista-flex-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:900px;
+        background-color: #fbf4ed;
+    }
+    
+    article#revista-flex-intro-responsive{
+        width: 700px;
+        height:900px;
+        margin-left: -350px;
+    }
+    
+    p.revista-flex-info-resp-title{
+        position: absolute;
+        float: left;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:250px;
+        margin-top:50px;
+    }
+    
+    figure#revista-flex-bg-responsive{
+        position: absolute;
+        margin-top:150px;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    img.revista-flex-responsive{
+        width:500px;
+    }
+    
+    p.revista-flex-info-resp-text-1{
+        position: absolute;
+        margin-top:650px;
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left:50px;
+    }
+    
+    a.btn-cadastro-responsive{
+        position: absolute;
+        margin-top:780px;
+        text-decoration: none;
+        color:#fff;
+        margin-left:50px;
+        background-color:#000;
+        text-transform: uppercase;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    p.revista-flex-text-border{
+        position: absolute;
+        margin-top:660px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-left:300px;
+        border:2px solid #000;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    div#line-divider-1{
+        position: absolute;
+        width:100%;
+        height:7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* REVISTAS SESSION */
+    section#revistas-session{
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        margin-top:900px;
+    }
+    
+    article#revistas-session{
+        width: 700px;
+        height:1500px;
+        margin-left: -350px;
+    }
+    
+    p.edicoes-on-line-text{
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top:40px;
+        margin-left:230px;
+    }
+    
+    div#edicoes-on-line-border{
+        position: absolute;
+        width:100%;
+        height: 7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* Edicao 1 */
+    figure.edicao_1{
+        position: absolute;
+        margin-top:180px;
+        margin-left:50px;
+    }
+    
+    p.edicao_1_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 2 */
+    figure.edicao_2{
+        position: absolute;
+        margin-top:180px;
+        margin-left:265px;
+    }
+    
+    p.edicao_2_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 3 */
+    figure.edicao_3{
+        position: absolute;
+        margin-top:180px;
+        margin-left:480px;
+    }
+    
+    p.edicao_3_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 4 */
+    figure.edicao_4{
+        position: absolute;
+        margin-top:520px;
+        margin-left:50px;
+    }
+    
+    p.edicao_4_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 5 */
+    figure.edicao_5{
+        position: absolute;
+        margin-top:520px;
+        margin-left:265px;
+    }
+    
+    p.edicao_5_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 6 */
+    figure.edicao_6{
+        position: absolute;
+        margin-top:520px;
+        margin-left:480px;
+    }
+    
+    p.edicao_6_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    
+    /* Edicao 7 */
+    figure.edicao_7{
+        position: absolute;
+        margin-top:860px;
+        margin-left:50px;
+    }
+    
+    p.edicao_7_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 8 */
+    figure.edicao_8{
+        position: absolute;
+        margin-top:860px;
+        margin-left:265px;
+    }
+    
+    p.edicao_8_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 9 */
+    figure.edicao_9{
+        position: absolute;
+        margin-top:860px;
+        margin-left:480px;
+    }
+    
+    p.edicao_9_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 10 */
+    figure.edicao_10{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:50px;
+    }
+    
+    p.edicao_10_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 11 */
+    figure.edicao_11{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:265px;
+    }
+    
+    p.edicao_11_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 12 */
+    figure.edicao_12{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:480px;
+    }
+    
+    p.edicao_12_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 13 */
+    figure.edicao_13{
+        position: absolute;
+        margin-top:1540px;
+        margin-left:50px;
+    }
+    
+    p.edicao_13_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 14 */
+    figure.edicao_14{
+        position: absolute;
+        margin-top:1540px;
+        margin-left:265px;
+    }
+    
+    p.edicao_14_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* CADASTRO FORM RESPONSIVE */
+    section#cadastro-form{
+        position: absolute;
+        width: 100%;
+        height:950px;
+        margin-top:2800px;
+        background-color:#fbf4ed;
+    }
+    
+    article#cadastro-form{
+        width: 700px;
+        height:950px;
+        margin-left: -350px;
+    }
+    
+    form.cadastro{
+        position: absolute;
+        margin-top:150px;
+        margin-left:50px;
+    }
+    
+    p.cadastro-form-title{
+        position: absolute;
+        font-size:18px;
+        margin-top:50px;
+        font-weight: 600;
+        margin-left:50px;
+    }
+    
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:80px;
+      margin-left:50px;
+    }
+    
+    input.nome, input.email, input.telefone, input.endereco,
+    input.cidade, input.bairro, input.cep{
+        position: absolute;
+        width: 600px;
+        height: 40px;
+        border:1px solid #000;
+        background:none;
+    } 
+    
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:0px;
+      margin-top:0px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:600px;
+      height:40px;
+    }
+
+    
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:3750px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 660px;
+      height:850px;
+      margin-left:-330px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:24px;
+      font-weight: 300;
+      margin-top:120px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:630px) and (min-device-width:630px) and (max-width:759px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -280px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position:relative;
+      float:right;
+      margin-right:40px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    
+    section#revista-flex-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:900px;
+        background-color: #fbf4ed;
+    }
+    
+    /* REVISTA FLEX INTRODUCAO */
+    article#revista-flex-intro-responsive{
+        width:560px;
+        height:900px;
+        margin-left: -280px;
+    }
+    
+    p.revista-flex-info-resp-title{
+        position: absolute;
+        float: left;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:170px;
+        margin-top:50px;
+    }
+    
+    figure#revista-flex-bg-responsive{
+        position: absolute;
+        margin-top:150px;
+        float: left;
+        margin-left:40px;
+    }
+    
+    img.revista-flex-responsive{
+        width:500px;
+    }
+    
+    p.revista-flex-info-resp-text-1{
+        position: absolute;
+        margin-top:650px;
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left:30px;
+    }
+    
+    a.btn-cadastro-responsive{
+        position: absolute;
+        margin-top:780px;
+        text-decoration: none;
+        color:#fff;
+        margin-left:30px;
+        background-color:#000;
+        text-transform: uppercase;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    p.revista-flex-text-border{
+        position: absolute;
+        margin-top:660px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-left:280px;
+        border:2px solid #000;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    div#line-divider-1{
+        position: absolute;
+        width:100%;
+        height:7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* REVISTAS SESSION */
+    section#revistas-session{
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        margin-top:900px;
+    }
+    
+    article#revistas-session{
+        width:560px;
+        height:900px;
+        margin-left: -280px;
+    }
+    
+    p.edicoes-on-line-text{
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top:40px;
+        margin-left:150px;
+    }
+    
+    div#edicoes-on-line-border{
+        position: absolute;
+        width:100%;
+        height: 7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* Edicao 1 */
+    figure.edicao_1{
+        position: absolute;
+        margin-top:180px;
+        margin-left:0px;
+    }
+    
+    p.edicao_1_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 2 */
+    figure.edicao_2{
+        position: absolute;
+        margin-top:180px;
+        margin-left:195px;
+    }
+    
+    p.edicao_2_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 3 */
+    figure.edicao_3{
+        position: absolute;
+        margin-top:180px;
+        margin-left:390px;
+    }
+    
+    p.edicao_3_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 4 */
+    figure.edicao_4{
+        position: absolute;
+        margin-top:520px;
+        margin-left:0px;
+    }
+    
+    p.edicao_4_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 5 */
+    figure.edicao_5{
+        position: absolute;
+        margin-top:520px;
+        margin-left:195px;
+    }
+    
+    p.edicao_5_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 6 */
+    figure.edicao_6{
+        position: absolute;
+        margin-top:520px;
+        margin-left:390px;
+    }
+    
+    p.edicao_6_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    
+    /* Edicao 7 */
+    figure.edicao_7{
+        position: absolute;
+        margin-top:860px;
+        margin-left:0px;
+    }
+    
+    p.edicao_7_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 8 */
+    figure.edicao_8{
+        position: absolute;
+        margin-top:860px;
+        margin-left:195px;
+    }
+    
+    p.edicao_8_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 9 */
+    figure.edicao_9{
+        position: absolute;
+        margin-top:860px;
+        margin-left:390px;
+    }
+    
+    p.edicao_9_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 10 */
+    figure.edicao_10{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:0px;
+    }
+    
+    p.edicao_10_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 11 */
+    figure.edicao_11{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:195px;
+    }
+    
+    p.edicao_11_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 12 */
+    figure.edicao_12{
+        position: absolute;
+        margin-top:1200px;
+        margin-left:390px;
+    }
+    
+    p.edicao_12_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 13 */
+    figure.edicao_13{
+        position: absolute;
+        margin-top:1540px;
+        margin-left:0px;
+    }
+    
+    p.edicao_13_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 14 */
+    figure.edicao_14{
+        position: absolute;
+        margin-top:1540px;
+        margin-left:195px;
+    }
+    
+    p.edicao_14_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* CADASTRO FORM RESPONSIVE */
+    section#cadastro-form{
+        position: absolute;
+        width: 100%;
+        height:950px;
+        margin-top:2800px;
+        background-color:#fbf4ed;
+    }
+    
+    article#cadastro-form{
+        width:560px;
+        height:900px;
+        margin-left: -280px;
+    }
+    
+    form.cadastro{
+        position: absolute;
+        margin-top:150px;
+        margin-left:30px;
+    }
+    
+    p.cadastro-form-title{
+        position: absolute;
+        font-size:18px;
+        margin-top:50px;
+        font-weight: 600;
+        margin-left:30px;
+    }
+    
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:80px;
+      margin-left:30px;
+    }
+    
+    input.nome, input.email, input.telefone, input.endereco,
+    input.cidade, input.bairro, input.cep{
+        position: absolute;
+        width:500px;
+        height: 40px;
+        border:1px solid #000;
+        background:none;
+    } 
+    
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:0px;
+      margin-top:0px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:500px;
+      height:40px;
+    }
+
+    
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:3750px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 550px;
+      height:850px;
+      margin-left:-280px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-top:110px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:470px) and (min-device-width:470px) and (max-width:629px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position:absolute;
+      float: left;
+      margin-left: -220px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:900px;
+        background-color: #fbf4ed;
+    }
+    
+    article#revista-flex-intro-responsive{
+        width:420px;
+        height:900px;
+        margin-left: -210px;
+    }
+    
+    p.revista-flex-info-resp-title{
+        position: absolute;
+        float: left;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:100px;
+        margin-top:50px;
+    }
+    
+    figure#revista-flex-bg-responsive{
+        position: absolute;
+        margin-top:150px;
+        float: left;
+        margin-left:10px;
+    }
+    
+    img.revista-flex-responsive{
+        width:400px;
+    }
+    
+    p.revista-flex-info-resp-text-1{
+        position: absolute;
+        margin-top:550px;
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left:30px;
+    }
+    
+    a.btn-cadastro-responsive{
+        position: absolute;
+        margin-top:670px;
+        text-decoration: none;
+        color:#fff;
+        margin-left:30px;
+        background-color:#000;
+        text-transform: uppercase;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    p.revista-flex-text-border{
+        position: absolute;
+        margin-top:760px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-left:20px;
+        border:2px solid #000;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    div#line-divider-1{
+        position: absolute;
+        width:100%;
+        height:7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* REVISTAS SESSION */
+    section#revistas-session{
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        margin-top:900px;
+    }
+    
+    article#revistas-session{
+        width:420px;
+        height:900px;
+        margin-left: -210px;
+    }
+    
+    p.edicoes-on-line-text{
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top:40px;
+        margin-left:80px;
+    }
+    
+    div#edicoes-on-line-border{
+        position: absolute;
+        width:100%;
+        height: 7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* Edicao 1 */
+    figure.edicao_1{
+        position: absolute;
+        margin-top:180px;
+        margin-left:0px;
+    }
+    
+    p.edicao_1_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 2 */
+    figure.edicao_2{
+        position: absolute;
+        margin-top:180px;
+        margin-left:230px;
+    }
+    
+    p.edicao_2_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 3 */
+    figure.edicao_3{
+        position: absolute;
+        margin-top:500px;
+        margin-left:0px;
+    }
+    
+    p.edicao_3_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 4 */
+    figure.edicao_4{
+        position: absolute;
+        margin-top:500px;
+        margin-left:230px;
+    }
+    
+    p.edicao_4_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 5 */
+    figure.edicao_5{
+        position: absolute;
+        margin-top:820px;
+        margin-left:0px;
+    }
+    
+    p.edicao_5_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 6 */
+    figure.edicao_6{
+        position: absolute;
+        margin-top:820px;
+        margin-left:230px;
+    }
+    
+    p.edicao_6_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    
+    /* Edicao 7 */
+    figure.edicao_7{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:0px;
+    }
+    
+    p.edicao_7_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 8 */
+    figure.edicao_8{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:230px;
+    }
+    
+    p.edicao_8_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 9 */
+    figure.edicao_9{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:0px;
+    }
+    
+    p.edicao_9_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 10 */
+    figure.edicao_10{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:230px;
+    }
+    
+    p.edicao_10_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 11 */
+    figure.edicao_11{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:0px;
+    }
+    
+    p.edicao_11_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 12 */
+    figure.edicao_12{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:230px;
+    }
+    
+    p.edicao_12_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 13 */
+    figure.edicao_13{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:0px;
+    }
+    
+    p.edicao_13_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 14 */
+    figure.edicao_14{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:230px;
+    }
+    
+    p.edicao_14_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* CADASTRO FORM RESPONSIVE */
+    section#cadastro-form{
+        position: absolute;
+        width: 100%;
+        height:950px;
+        margin-top:3400px;
+        background-color:#fbf4ed;
+    }
+    
+    article#cadastro-form{
+        width:420px;
+        height:900px;
+        margin-left: -210px;
+    }
+    
+    form.cadastro{
+        position: absolute;
+        margin-top:150px;
+        margin-left:30px;
+    }
+    
+    p.cadastro-form-title{
+        position: absolute;
+        font-size:18px;
+        margin-top:50px;
+        font-weight: 600;
+        margin-left:30px;
+    }
+    
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:110px;
+      margin-left:30px;
+    }
+    
+    input.nome, input.email, input.telefone, input.endereco,
+    input.cidade, input.bairro, input.cep{
+        position: absolute;
+        width:350px;
+        height: 40px;
+        border:1px solid #000;
+        background:none;
+    } 
+    
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:0px;
+      margin-top:0px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:350px;
+      height:40px;
+    }
+
+    
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:4350px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:410px;
+      height:810px;
+      margin-left:-210px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:20px;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-40px;
+    }
+}
+
+@media (min-width:360px) and (min-device-width:360px) and (max-width:469px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      width:100%;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -160px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:900px;
+        background-color: #fbf4ed;
+    }
+    
+    article#revista-flex-intro-responsive{
+        width:300px;
+        height:900px;
+        margin-left: -150px;
+    }
+    
+    p.revista-flex-info-resp-title{
+        position: absolute;
+        float: left;
+        font-size:24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:70px;
+        margin-top:50px;
+    }
+    
+    figure#revista-flex-bg-responsive{
+        position: absolute;
+        margin-top:150px;
+        float: left;
+        margin-left:0px;
+    }
+    
+    img.revista-flex-responsive{
+        width:300px;
+    }
+    
+    p.revista-flex-info-resp-text-1{
+        position: absolute;
+        margin-top:500px;
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left:30px;
+    }
+    
+    a.btn-cadastro-responsive{
+        position: absolute;
+        margin-top:620px;
+        text-decoration: none;
+        color:#fff;
+        margin-left:30px;
+        background-color:#000;
+        text-transform: uppercase;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    p.revista-flex-text-border{
+        position: absolute;
+        margin-top:710px;
+        font-size:12px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-left:0px;
+        border:2px solid #000;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    div#line-divider-1{
+        position: absolute;
+        width:100%;
+        height:7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* REVISTAS SESSION */
+    section#revistas-session{
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        margin-top:900px;
+    }
+    
+    article#revistas-session{
+        width:300px;
+        height:900px;
+        margin-left: -150px;
+    }
+    
+    p.edicoes-on-line-text{
+        position: absolute;
+        text-transform: uppercase;
+        font-size:24px;
+        font-weight: 600;
+        margin-top:40px;
+        margin-left:50px;
+    }
+    
+    div#edicoes-on-line-border{
+        position: absolute;
+        width:100%;
+        height: 7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* Imagens Edições 1*/
+    img.edicao_1, img.edicao_2, img.edicao_3, img.edicao_4,
+    img.edicao_5, img.edicao_6, img.edicao_7, img.edicao_8,
+    img.edicao_9, img.edicao_10, img.edicao_11, img.edicao_12,
+    img.edicao_13, img.edicao_14{
+        width:140px;
+    }
+    
+    /* Tetos Edicoes */
+    p.edicao_1_text, p.edicao_2_text, p.edicao_3_text,
+    p.edicao_4_text, p.edicao_5_text, p.edicao_6_text,
+    p.edicao_7_text, p.edicao_8_text, p.edicao_9_text,
+    p.edicao_10_text, p.edicao_11_text, p.edicao_12_text,
+    p.edicao_13_text, p.edicao_14_text{
+        font-size: 11px;
+    }
+    
+    /* Edicao 1 */
+    figure.edicao_1{
+        position: absolute;
+        margin-top:180px;
+        margin-left:0px;
+    }
+    
+    p.edicao_1_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 2 */
+    figure.edicao_2{
+        position: absolute;
+        margin-top:180px;
+        margin-left:160px;
+    }
+    
+    p.edicao_2_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 3 */
+    figure.edicao_3{
+        position: absolute;
+        margin-top:500px;
+        margin-left:0px;
+    }
+    
+    p.edicao_3_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 4 */
+    figure.edicao_4{
+        position: absolute;
+        margin-top:500px;
+        margin-left:160px;
+    }
+    
+    p.edicao_4_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 5 */
+    figure.edicao_5{
+        position: absolute;
+        margin-top:820px;
+        margin-left:0px;
+    }
+    
+    p.edicao_5_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 6 */
+    figure.edicao_6{
+        position: absolute;
+        margin-top:820px;
+        margin-left:160px;
+    }
+    
+    p.edicao_6_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    
+    /* Edicao 7 */
+    figure.edicao_7{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:0px;
+    }
+    
+    p.edicao_7_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 8 */
+    figure.edicao_8{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:160px;
+    }
+    
+    p.edicao_8_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 9 */
+    figure.edicao_9{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:0px;
+    }
+    
+    p.edicao_9_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 10 */
+    figure.edicao_10{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:160px;
+    }
+    
+    p.edicao_10_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 11 */
+    figure.edicao_11{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:0px;
+    }
+    
+    p.edicao_11_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 12 */
+    figure.edicao_12{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:160px;
+    }
+    
+    p.edicao_12_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 13 */
+    figure.edicao_13{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:0px;
+    }
+    
+    p.edicao_13_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 14 */
+    figure.edicao_14{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:160px;
+    }
+    
+    p.edicao_14_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* CADASTRO FORM RESPONSIVE */
+    section#cadastro-form{
+        position: absolute;
+        width: 100%;
+        height:950px;
+        margin-top:3350px;
+        background-color:#fbf4ed;
+    }
+    
+    article#cadastro-form{
+        width:300px;
+        height:900px;
+        margin-left: -180px;
+    }
+    
+    form.cadastro{
+        position: absolute;
+        margin-top:150px;
+        margin-left:30px;
+    }
+    
+    p.cadastro-form-title{
+        position: absolute;
+        font-size:18px;
+        margin-top:50px;
+        font-weight: 600;
+        margin-left:30px;
+    }
+    
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:110px;
+      margin-left:30px;
+    }
+    
+    input.nome, input.email, input.telefone, input.endereco,
+    input.cidade, input.bairro, input.cep{
+        position: absolute;
+        width:300px;
+        height: 40px;
+        border:1px solid #000;
+        background:none;
+    } 
+    
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:0px;
+      margin-top:0px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:300px;
+      height:40px;
+    }
+
+    
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:4300px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}
+
+@media (min-width:320px) and (min-device-width:320px) and (max-width:359px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -140px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+        /* REVISTA FLEX INTRODUCAO */
+    section#revista-flex-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:900px;
+        background-color: #fbf4ed;
+    }
+    
+    article#revista-flex-intro-responsive{
+        width:300px;
+        height:900px;
+        margin-left: -150px;
+    }
+    
+    p.revista-flex-info-resp-title{
+        position: absolute;
+        float: left;
+        font-size:24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:70px;
+        margin-top:50px;
+    }
+    
+    figure#revista-flex-bg-responsive{
+        position: absolute;
+        margin-top:150px;
+        float: left;
+        margin-left:0px;
+    }
+    
+    img.revista-flex-responsive{
+        width:300px;
+    }
+    
+    p.revista-flex-info-resp-text-1{
+        position: absolute;
+        margin-top:500px;
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left:30px;
+    }
+    
+    a.btn-cadastro-responsive{
+        position: absolute;
+        margin-top:620px;
+        text-decoration: none;
+        color:#fff;
+        margin-left:30px;
+        background-color:#000;
+        text-transform: uppercase;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    p.revista-flex-text-border{
+        position: absolute;
+        margin-top:710px;
+        font-size:12px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-left:0px;
+        border:2px solid #000;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    div#line-divider-1{
+        position: absolute;
+        width:100%;
+        height:7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* REVISTAS SESSION */
+    section#revistas-session{
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        margin-top:900px;
+    }
+    
+    article#revistas-session{
+        width:300px;
+        height:900px;
+        margin-left: -150px;
+    }
+    
+    p.edicoes-on-line-text{
+        position: absolute;
+        text-transform: uppercase;
+        font-size:24px;
+        font-weight: 600;
+        margin-top:40px;
+        margin-left:50px;
+    }
+    
+    div#edicoes-on-line-border{
+        position: absolute;
+        width:100%;
+        height: 7px;
+        background-color: #000;
+        margin-top:100px;
+    }
+    
+    /* Imagens Edições 1*/
+    img.edicao_1, img.edicao_2, img.edicao_3, img.edicao_4,
+    img.edicao_5, img.edicao_6, img.edicao_7, img.edicao_8,
+    img.edicao_9, img.edicao_10, img.edicao_11, img.edicao_12,
+    img.edicao_13, img.edicao_14{
+        width:140px;
+    }
+    
+    /* Tetos Edicoes */
+    p.edicao_1_text, p.edicao_2_text, p.edicao_3_text,
+    p.edicao_4_text, p.edicao_5_text, p.edicao_6_text,
+    p.edicao_7_text, p.edicao_8_text, p.edicao_9_text,
+    p.edicao_10_text, p.edicao_11_text, p.edicao_12_text,
+    p.edicao_13_text, p.edicao_14_text{
+        font-size: 11px;
+    }
+    
+    /* Edicao 1 */
+    figure.edicao_1{
+        position: absolute;
+        margin-top:180px;
+        margin-left:0px;
+    }
+    
+    p.edicao_1_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 2 */
+    figure.edicao_2{
+        position: absolute;
+        margin-top:180px;
+        margin-left:160px;
+    }
+    
+    p.edicao_2_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 3 */
+    figure.edicao_3{
+        position: absolute;
+        margin-top:500px;
+        margin-left:0px;
+    }
+    
+    p.edicao_3_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 4 */
+    figure.edicao_4{
+        position: absolute;
+        margin-top:500px;
+        margin-left:160px;
+    }
+    
+    p.edicao_4_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 5 */
+    figure.edicao_5{
+        position: absolute;
+        margin-top:820px;
+        margin-left:0px;
+    }
+    
+    p.edicao_5_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 6 */
+    figure.edicao_6{
+        position: absolute;
+        margin-top:820px;
+        margin-left:160px;
+    }
+    
+    p.edicao_6_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    
+    /* Edicao 7 */
+    figure.edicao_7{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:0px;
+    }
+    
+    p.edicao_7_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 8 */
+    figure.edicao_8{
+        position: absolute;
+        margin-top:1150px;
+        margin-left:160px;
+    }
+    
+    p.edicao_8_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 9 */
+    figure.edicao_9{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:0px;
+    }
+    
+    p.edicao_9_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 10 */
+    figure.edicao_10{
+        position: absolute;
+        margin-top:1480px;
+        margin-left:160px;
+    }
+    
+    p.edicao_10_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 11 */
+    figure.edicao_11{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:0px;
+    }
+    
+    p.edicao_11_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 12 */
+    figure.edicao_12{
+        position: absolute;
+        margin-top:1810px;
+        margin-left:160px;
+    }
+    
+    p.edicao_12_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 13 */
+    figure.edicao_13{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:0px;
+    }
+    
+    p.edicao_13_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* Edicao 14 */
+    figure.edicao_14{
+        position: absolute;
+        margin-top:2140px;
+        margin-left:160px;
+    }
+    
+    p.edicao_14_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight:600;
+        text-transform: uppercase;
+        margin-left:9px;
+    }
+    
+    /* CADASTRO FORM RESPONSIVE */
+    section#cadastro-form{
+        position: absolute;
+        width: 100%;
+        height:950px;
+        margin-top:3350px;
+        background-color:#fbf4ed;
+    }
+    
+    article#cadastro-form{
+        width:300px;
+        height:900px;
+        margin-left: -180px;
+    }
+    
+    form.cadastro{
+        position: absolute;
+        margin-top:150px;
+        margin-left:30px;
+    }
+    
+    p.cadastro-form-title{
+        position: absolute;
+        font-size:18px;
+        margin-top:50px;
+        font-weight: 600;
+        margin-left:30px;
+    }
+    
+    div#cadastro-form-line{
+      position: absolute;
+      width:120px;
+      height: 3px;
+      background-color: #000;
+      margin-top:110px;
+      margin-left:30px;
+    }
+    
+    input.nome, input.email, input.telefone, input.endereco,
+    input.cidade, input.bairro, input.cep{
+        position: absolute;
+        width:300px;
+        height: 40px;
+        border:1px solid #000;
+        background:none;
+    } 
+    
+    select.estados{
+      position: absolute;
+      float: left;
+      margin-left:0px;
+      margin-top:0px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size:12px;
+      text-transform: uppercase;
+      border-radius: 0 none;
+      outline: 0;
+      background:none;
+      padding-left:10px;
+      -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+      -moz-appearance: none; /* Remove estilo padrão do FireFox */
+      appearance: none; /* Remove estilo padrão do FireFox*/
+      border:1px solid #000;
+      width:300px;
+      height:40px;
+    }
+
+    
+    a.btn-enviar{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #000;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a.btn-enviar:hover{
+      position: absolute;
+      float: left;
+      text-decoration: none;
+      color:#fff;
+      background-color: #8d8d8d;
+      margin-top:20px;
+      padding: 8px 20px 8px 20px;
+      width: 118px;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:4300px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}
