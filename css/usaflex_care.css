@@ -1,0 +1,8255 @@
+@media (min-width:1279px) and (min-device-width:1279px) and (max-width:2460px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:1050px;
+      margin-top:30px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:100px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-640px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:400px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+    
+    /* USAFLEX CARE INTRO */
+    section#usaflex-care-intro{
+        position: absolute;
+        width:100%;
+        height:403px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+        margin-top:360px;
+    }
+    
+    article#usaflex-care-intro{
+        width:1280px;
+        height: 403px;
+        margin-left: -640px;
+    }
+    
+    div#usaflex-care-infos{
+        position: absolute;
+        float:left;
+        margin-left:330px;
+        margin-top:100px;
+    }
+    
+    p.usaflex-care-title{
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size:24px;
+        line-height: 100%;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    div#usalfex-info-border{
+        position: absolute;
+        margin-top:100px;
+        width:510px;
+        z-index:50;
+        width:600px;
+        padding:20px 20px 20px 20px;
+        background-color:#fff;
+        margin-left: -50px;
+    }
+    
+    p.usalfex-border-text{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 100%;
+        border:2px solid #000;
+        padding: 20px 80px 20px 80px;
+    }
+    
+    /* USAFLEX CARE PRO 1 */
+    section#usaflex-care-pro-1{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:760px;
+    }
+    
+    article#usaflex-intro-pro-1{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-1{
+        position: relative;
+        float: right;
+        width:300px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.sapato_preto{
+        position: absolute;
+        width:400px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 1 */
+    div#usaflex-care-desc-infos-1{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    /* Usaflex Icons 1 */
+    figure#usaflex-icons-1{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    p.usaflex-care-desc-text-1{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-1{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-1{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-1{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 2 */
+    figure#usaflex-icons-2{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-2{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-2{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 3 */
+    figure#usaflex-icons-3{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-3{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-3{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 4 */
+    figure#usaflex-icons-4{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-4{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-4{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-1{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-1:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-pro-2{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:2200px;
+    }
+    
+    article#usaflex-intro-pro-2{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-2{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.produto-3{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-2{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-2{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 5 */
+    figure#usaflex-icons-5{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-5{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-5{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 6 */
+    figure#usaflex-icons-6{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-6{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-6{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 7 */
+    figure#usaflex-icons-7{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-7{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-7{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:400px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-pro-3{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:3550px;
+    }
+    
+    article#usaflex-intro-pro-3{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-5{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.produto-4{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-3{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:900px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 8 */
+    figure#usaflex-icons-8{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-8{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-8{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 9 */
+    figure#usaflex-icons-9{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-9{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-9{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 10 */
+    figure#usaflex-icons-10{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-10{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-10{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 11 */
+    figure#usaflex-icons-11{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    img.care-icon-11{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-11{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 12 */
+    figure#usaflex-icons-12{
+        position: absolute;
+        margin-left:0px;
+        margin-top:400px;
+    }
+    
+    
+    img.care-icon-12{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-12{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 13 */
+    figure#usaflex-icons-13{
+        position: absolute;
+        margin-left:330px;
+        margin-top:400px;
+    }
+    
+    img.care-icon-13{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-13{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-3{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:600px;
+    }
+    
+    a.btn-linha-completa-3:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-pro-4{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:5200px;
+    }
+    
+    article#usaflex-intro-pro-4{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-7{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:350px;
+        margin-top:150px;
+    }
+    
+    img.produto-6{
+        position: absolute;
+        width:400px;
+        margin-top:250px;
+        margin-left:250px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-4{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        position: absolute;
+        font-size:12px;
+        font-weight: 300;
+        margin-top:-50px;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:850px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 14 */
+    figure#usaflex-icons-14{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-14{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-14{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 15 */
+    figure#usaflex-icons-15{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-15{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-15{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 16 */
+    figure#usaflex-icons-16{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-16{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-16{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-4{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-4:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:6650px;
+      border-top:1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 1270px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:70px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      font-size: 11px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left: 70px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:400px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-410px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -300px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:1020px) and (min-device-width:1020px) and (max-width:1278px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:900px;
+      margin-top:30px;
+    }
+
+    figure#logo{
+      position: absolute;
+      float: left;
+      margin-left:170px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:250px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-480px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:250px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+    
+    
+        /* USAFLEX CARE INTRO */
+    section#usaflex-care-intro{
+        position: absolute;
+        width:100%;
+        height:403px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+        margin-top:360px;
+    }
+    
+    article#usaflex-care-intro{
+        width:1280px;
+        height: 403px;
+        margin-left: -640px;
+    }
+    
+    div#usaflex-care-infos{
+        position: absolute;
+        float:left;
+        margin-left:330px;
+        margin-top:100px;
+    }
+    
+    p.usaflex-care-title{
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size:24px;
+        line-height: 100%;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    div#usalfex-info-border{
+        position: absolute;
+        margin-top:100px;
+        width:510px;
+        z-index:50;
+        width:600px;
+        padding:20px 20px 20px 20px;
+        background-color:#fff;
+        margin-left: -50px;
+    }
+    
+    p.usalfex-border-text{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 100%;
+        border:2px solid #000;
+        padding: 20px 80px 20px 80px;
+    }
+    
+    /* USAFLEX CARE PRO 1 */
+    section#usaflex-care-pro-1{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:760px;
+    }
+    
+    article#usaflex-intro-pro-1{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-1{
+        position: relative;
+        float: right;
+        width:300px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.sapato_preto{
+        position: absolute;
+        width:400px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 1 */
+    div#usaflex-care-desc-infos-1{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    /* Usaflex Icons 1 */
+    figure#usaflex-icons-1{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    p.usaflex-care-desc-text-1{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-1{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-1{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-1{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 2 */
+    figure#usaflex-icons-2{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-2{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-2{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 3 */
+    figure#usaflex-icons-3{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-3{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-3{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 4 */
+    figure#usaflex-icons-4{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-4{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-4{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-1{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-1:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-pro-2{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:2200px;
+    }
+    
+    article#usaflex-intro-pro-2{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-2{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.produto-3{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-2{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-2{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 5 */
+    figure#usaflex-icons-5{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-5{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-5{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 6 */
+    figure#usaflex-icons-6{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-6{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-6{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 7 */
+    figure#usaflex-icons-7{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-7{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-7{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:400px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-pro-3{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:3550px;
+    }
+    
+    article#usaflex-intro-pro-3{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-5{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.produto-4{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-3{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:900px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 8 */
+    figure#usaflex-icons-8{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-8{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-8{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 9 */
+    figure#usaflex-icons-9{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-9{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-9{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 10 */
+    figure#usaflex-icons-10{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-10{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-10{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 11 */
+    figure#usaflex-icons-11{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    img.care-icon-11{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-11{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 12 */
+    figure#usaflex-icons-12{
+        position: absolute;
+        margin-left:0px;
+        margin-top:400px;
+    }
+    
+    
+    img.care-icon-12{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-12{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 13 */
+    figure#usaflex-icons-13{
+        position: absolute;
+        margin-left:330px;
+        margin-top:400px;
+    }
+    
+    img.care-icon-13{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-13{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-3{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:600px;
+    }
+    
+    a.btn-linha-completa-3:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-pro-4{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:5200px;
+    }
+    
+    article#usaflex-intro-pro-4{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-7{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:350px;
+        margin-top:150px;
+    }
+    
+    img.produto-6{
+        position: absolute;
+        width:400px;
+        margin-top:250px;
+        margin-left:250px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-4{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        position: absolute;
+        font-size:12px;
+        font-weight: 300;
+        margin-top:-50px;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:850px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 14 */
+    figure#usaflex-icons-14{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-14{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-14{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 15 */
+    figure#usaflex-icons-15{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-15{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-15{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 16 */
+    figure#usaflex-icons-16{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-16{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-16{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-4{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-4:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+   
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:6650px;
+      border-top:1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:970px) and (min-device-width:970px) and (max-width:1019px){
+
+    @import url('https:/760/fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #mobile-version{
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:40px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    /* HEADER */
+    header#header-empresa{
+      position: absolute;
+      width: 100%;
+      height:160px;
+    }
+
+    div#header-limit{
+      position: absolute;
+      width: 1280px;
+      height: 80px;
+      margin-left: -640px;
+
+    }
+
+    p.menu-desktop-text{
+      position: absolute;
+      float: left;
+      text-transform: uppercase;
+      margin-left:900px;
+      margin-top:30px;
+    }
+
+    figure#logo{
+      position: absolute;
+      float: left;
+      margin-left:170px;
+    }
+
+    .logo{
+      position: relative;
+      float: left;
+      width:110px;
+      margin-top:25px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float: right;
+      width:50px;
+      height:30px;
+      margin-top:25px;
+      margin-right:250px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 50px;
+      height:4px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    img.lupa{
+      position: relative;
+      float: right;
+      width:30px;
+      margin-top: 25px;
+      margin-right: -130px;
+      cursor: pointer;
+    }
+
+    /* Breadcrumb */
+    ul#breadcrumb{
+      position: absolute;
+      float:left;
+      margin-top:230px;
+      margin-left:-450px;
+    }
+
+    ul#breadcrumb li{
+      list-style: none;
+      display: inline-block;
+    }
+
+    ul#breadcrumb li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    ul#breadcrumb li a:hover{
+      color:#979796;
+      transition: all 0.4s linear;
+    }
+
+    p.text-empresa{
+      position: absolute;
+      float: left;
+      margin-left:250px;
+      margin-top:80px;
+      text-transform: uppercase;
+      font-weight:100;
+      font-size: 30px;
+    }
+
+    /* BG EMPRESA */
+    section#bg-empresa{
+      position: absolute;
+      width: 100%;
+      height:200px;
+      margin-top:80px;
+      background: url(../img/bg_internaflex.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+    }
+
+    article#bg-empresa{
+      position: absolute;
+      width:100%;
+      height: 350px;
+    }
+
+        /* USAFLEX CARE INTRO */
+    section#usaflex-care-intro{
+        position: absolute;
+        width:100%;
+        height:403px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+      z-index: 20;
+        margin-top:360px;
+    }
+    
+    article#usaflex-care-intro{
+        width:1280px;
+        height: 403px;
+        margin-left: -640px;
+    }
+    
+    div#usaflex-care-infos{
+        position: absolute;
+        float:left;
+        margin-left:330px;
+        margin-top:100px;
+    }
+    
+    p.usaflex-care-title{
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size:24px;
+        line-height: 100%;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    div#usalfex-info-border{
+        position: absolute;
+        margin-top:100px;
+        width:510px;
+        z-index:50;
+        width:600px;
+        padding:20px 20px 20px 20px;
+        background-color:#fff;
+        margin-left: -50px;
+    }
+    
+    p.usalfex-border-text{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 100%;
+        border:2px solid #000;
+        padding: 20px 80px 20px 80px;
+    }
+    
+    /* USAFLEX CARE PRO 1 */
+    section#usaflex-care-pro-1{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:760px;
+    }
+    
+    article#usaflex-intro-pro-1{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-1{
+        position: relative;
+        float: right;
+        width:300px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.sapato_preto{
+        position: absolute;
+        width:400px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 1 */
+    div#usaflex-care-desc-infos-1{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    /* Usaflex Icons 1 */
+    figure#usaflex-icons-1{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    p.usaflex-care-desc-text-1{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-1{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-1{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-1{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 2 */
+    figure#usaflex-icons-2{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-2{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-2{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 3 */
+    figure#usaflex-icons-3{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-3{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-3{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 4 */
+    figure#usaflex-icons-4{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    img.care-icon-4{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-4{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-1{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-1:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-pro-2{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:2200px;
+    }
+    
+    article#usaflex-intro-pro-2{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-2{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.bolinha-1{
+        position: relative;
+        float:right;
+        width:225px;
+        margin-right:-154px;
+        margin-top:290px;
+        z-index: 10;
+    }
+    
+    img.produto-3{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-2{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-2{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-2{
+        position: absolute;
+        margin-top:800px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 5 */
+    figure#usaflex-icons-5{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-5{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-5{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 6 */
+    figure#usaflex-icons-6{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-6{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-6{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 7 */
+    figure#usaflex-icons-7{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-7{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-7{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:400px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-pro-3{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:3550px;
+    }
+    
+    article#usaflex-intro-pro-3{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-5{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:300px;
+        margin-top:100px;
+    }
+    
+    img.produto-4{
+        position: absolute;
+        width:350px;
+        margin-top:300px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-3{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-3{
+        font-size:12px;
+        font-weight: 300;
+    }
+    
+    div#usaflex-care-desc-icons-3{
+        position: absolute;
+        margin-top:900px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 8 */
+    figure#usaflex-icons-8{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-8{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-8{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 9 */
+    figure#usaflex-icons-9{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-9{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-9{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 10 */
+    figure#usaflex-icons-10{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-10{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-10{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 11 */
+    figure#usaflex-icons-11{
+        position: absolute;
+        margin-left:330px;
+        margin-top:200px;
+    }
+    
+    img.care-icon-11{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-11{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 12 */
+    figure#usaflex-icons-12{
+        position: absolute;
+        margin-left:0px;
+        margin-top:400px;
+    }
+    
+    
+    img.care-icon-12{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-12{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 13 */
+    figure#usaflex-icons-13{
+        position: absolute;
+        margin-left:330px;
+        margin-top:400px;
+    }
+    
+    img.care-icon-13{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-13{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-3{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:600px;
+    }
+    
+    a.btn-linha-completa-3:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-pro-4{
+        position: absolute;
+        width:100%;
+        height: 900px;
+        margin-top:5200px;
+    }
+    
+    article#usaflex-intro-pro-4{
+        width:1280px;
+        height: 900px;
+        margin-left:-640px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height: 400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        margin-left:250px;
+        margin-top:160px;
+        width:650px;
+        z-index: 10;
+    }
+    
+    img.produto-7{
+        position: relative;
+        float: right;
+        width:200px;
+        margin-right:350px;
+        margin-top:150px;
+    }
+    
+    img.produto-6{
+        position: absolute;
+        width:400px;
+        margin-top:250px;
+        margin-left:250px;
+    }
+    
+    /* Usaflex Desc Infos 2 */
+    div#usaflex-care-desc-infos-4{
+        position: absolute;
+        float: left;
+        margin-left:300px;
+        width:600px;
+        margin-top:600px;
+    }
+    
+    p.usaflex-care-desc-text-4{
+        position: absolute;
+        font-size:12px;
+        font-weight: 300;
+        margin-top:-50px;
+    }
+    
+    div#usaflex-care-desc-icons-4{
+        position: absolute;
+        margin-top:850px;
+        margin-left:300px;
+    }
+    
+    /* Usaflex Icons 14 */
+    figure#usaflex-icons-14{
+        position: absolute;
+        margin-left:0px;
+    }
+    
+    img.care-icon-14{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-14{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 15 */
+    figure#usaflex-icons-15{
+        position: absolute;
+        margin-left:330px;
+    }
+    
+    img.care-icon-15{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-15{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    /* Usaflex Icons 16 */
+    figure#usaflex-icons-16{
+        position: absolute;
+        margin-left:0px;
+        margin-top: 200px;
+    }
+    
+    
+    img.care-icon-16{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+    p.usaflex-icons-text-16{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        width:300px;
+        margin-top:100px;
+    }
+    
+    a.btn-linha-completa-4{
+        position: absolute;
+        text-decoration:none;
+        width:251px;
+        color:#000;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top:500px;
+        font-size: 14px;
+        border:1px solid #000;
+        padding: 8px 50px 8px 50px;
+        margin-left:150px;
+        margin-top:450px;
+    }
+    
+    a.btn-linha-completa-4:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER */
+    footer#rodape{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top:6650px;
+      border-top:1px solid #000;
+    }
+
+    article#rodape-area{
+      width: 940px;
+      height: 200px;
+      margin-left: -640px;
+    }
+
+    .logo-footer{
+      position: relative;
+      float: left;
+      width: 100px;
+      margin-left:160px;
+      margin-top:70px;
+    }
+
+    div#detalhes-footer{
+      position: absolute;
+      float: left;
+      margin-top:60px;
+      margin-left: 200px;
+    }
+
+    p.detalhes-footer{
+      position: absolute;
+      font-size: 11px;
+      margin-left:80px;
+      width: 400px;
+    }
+
+    div#newsletter{
+      position: absolute;
+      float: left;
+      margin-top: 130px;
+      margin-left:160px;
+    }
+
+    input.newsletter{
+      width: 350px;
+      height: 25px;
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color:#000;
+      border:1px solid #000;
+      background:none;
+    }
+
+    a.btn-newsletter{
+      text-decoration: none;
+      font-size: 11px;
+      color:#000;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+    }
+
+    a.btn-newsletter:hover{
+      text-decoration: none;
+      font-size: 11px;
+      color:#fff;
+      text-transform: uppercase;
+      border:1px solid #000;
+      padding: 5px 25px 5px 25px;
+      margin-left:5px;
+      background-color: #000;
+      transition: all 0.4s linear;
+    }
+
+    ul.links-footer-1{
+      position: relative;
+      float: right;
+      margin-right:130px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-1 li{
+      list-style: none;
+    }
+
+    ul.links-footer-1 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-1 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-2{
+      position: relative;
+      float: right;
+      margin-right:-230px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-2 li{
+      list-style: none;
+    }
+
+    ul.links-footer-2 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-2 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    ul.links-footer-3{
+      position: relative;
+      float: right;
+      margin-right:-390px;
+      margin-top:50px;
+    }
+
+    ul.links-footer-3 li{
+      list-style: none;
+    }
+
+    ul.links-footer-3 li a{
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+    }
+
+    ul.links-footer-3 li a:hover{
+      text-decoration: none;
+      color:#8f8f8f;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 200%;
+      transition: all 0.3s linear;
+    }
+
+    figure#social-media{
+      position: relative;
+      float: right;
+      margin-top: 130px;
+      margin-right: -270px;
+    }
+
+    .facebook{
+      position: absolute;
+      width: 30px;
+    }
+
+    .instagram{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:40px;
+    }
+
+    .youtube{
+      position: absolute;
+      width: 30px;
+      margin-top:5px;
+      margin-left:90px;
+    }
+}
+
+@media (min-width:760px) and (min-device-width:760px) and (max-width:969px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:99999999;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -350px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:40px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    /* USAFLEX CARE INTRO RESPONSIVE */
+    section#usaflex-care-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    
+    div#bg_1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        margin-top:210px;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    article#usaflex-care-intro-responsive{
+        width: 700px;
+        height:600px;
+        margin-left:-350px;
+    }
+    
+    div#usaflex-care-title{
+        width:100%;
+        height: 200px;
+        background-color:#3f393a;
+    }
+    
+    p.usaflex-care-title{
+        position: absolute;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:42px;
+        margin-left:180px;
+        margin-top:75px;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:600px;
+        height:10px;
+        background-color:#d3a780;
+        margin-left:50px;
+    }
+    
+    p.text-introduction{
+        position: absolute;
+        margin-top:100px;
+        line-height: 100%;
+        font-size: 24px;
+        font-weight: 600;
+        margin-left:50px;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:250px;
+        margin-left:50px;
+    }
+    
+    /* USAFLEX CARE PRODUTO 1 */
+    section#usaflex-care-produto-1{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:500px;
+    }
+    
+    article#usaflex-care-produto-1{
+        width: 700px;
+        height:600px;
+        margin-left:-350px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-1{
+        position: absolute;
+        z-index: 50;
+        margin-left:40px;
+        margin-top:90px;
+    }
+    
+    img.care-1{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-1{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 1 */
+    div#usaflex-care-infos-1{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:430px;
+    }
+    
+    p.usaflex-care-text-1{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 1 */
+    div#usaflex-icons-1{
+        position: absolute;
+        margin-top:50px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 2 */
+    div#usaflex-icons-2{
+        position: absolute;
+        margin-top:50px;
+        margin-left:380px;
+    }
+    
+    /* Usaflex Icons 3 */
+    div#usaflex-icons-3{
+        position: absolute;
+        margin-top:250px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 4 */
+    div#usaflex-icons-4{
+        position: absolute;
+        margin-top:250px;
+        margin-left:380px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:170px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-produto-2{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:1700px;
+    }
+    
+    article#usaflex-care-produto-2{
+        width: 700px;
+        height:600px;
+        margin-left:-350px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-2{
+        position: absolute;
+        z-index: 50;
+        margin-left:40px;
+        margin-top:90px;
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-2{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 2 */
+    div#usaflex-care-infos-2{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-2{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 5 */
+    div#usaflex-icons-5{
+        position: absolute;
+        margin-top:50px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 6 */
+    div#usaflex-icons-6{
+        position: absolute;
+        margin-top:50px;
+        margin-left:380px;
+    }
+    
+    /* Usaflex Icons 7 */
+    div#usaflex-icons-7{
+        position: absolute;
+        margin-top:250px;
+        margin-left:90px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:170px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-produto-3{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:2900px;
+    }
+    
+    article#usaflex-care-produto-3{
+        width: 700px;
+        height:600px;
+        margin-left:-350px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-3{
+        position: absolute;
+        z-index: 50;
+        margin-left:40px;
+        margin-top:90px;
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-3{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 3 */
+    div#usaflex-care-infos-3{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-3{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 8 */
+    div#usaflex-icons-8{
+        position: absolute;
+        margin-top:50px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 9 */
+    div#usaflex-icons-9{
+        position: absolute;
+        margin-top:50px;
+        margin-left:380px;
+    }
+    
+    /* Usaflex Icons 10 */
+    div#usaflex-icons-10{
+        position: absolute;
+        margin-top:250px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 11 */
+    div#usaflex-icons-11{
+        position: absolute;
+        margin-top:250px;
+        margin-left:380px;
+    }
+    
+    /* Usaflex Icons 12 */
+    div#usaflex-icons-12{
+        position: absolute;
+        margin-top:500px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 13 */
+    div#usaflex-icons-13{
+        position: absolute;
+        margin-top:500px;
+        margin-left:380px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration: none;
+        margin-top:750px;
+        margin-left:170px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-produto-4{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:4450px;
+    }
+    
+    article#usaflex-care-produto-4{
+        width: 700px;
+        height:600px;
+        margin-left:-350px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-4{
+        position: absolute;
+        z-index: 50;
+        margin-left:40px;
+        margin-top:90px;
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-4{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 4 */
+    div#usaflex-care-infos-4{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 14 */
+    div#usaflex-icons-14{
+        position: absolute;
+        margin-top:50px;
+        margin-left:90px;
+    }
+    
+    /* Usaflex Icons 15 */
+    div#usaflex-icons-15{
+        position: absolute;
+        margin-top:50px;
+        margin-left:380px;
+    }
+    
+    /* Usaflex Icons 16 */
+    div#usaflex-icons-16{
+        position: absolute;
+        margin-top:250px;
+        margin-left:90px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:170px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:5750px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 660px;
+      height:850px;
+      margin-left:-330px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:24px;
+      font-weight: 300;
+      margin-top:120px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:630px) and (min-device-width:630px) and (max-width:759px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -280px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position:relative;
+      float:right;
+      margin-right:40px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    /* USAFLEX CARE INTRO RESPONSIVE */
+    section#usaflex-care-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    
+    div#bg_1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        margin-top:210px;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    article#usaflex-care-intro-responsive{
+        width:580px;
+        height:600px;
+        margin-left:-290px;
+    }
+    
+    div#usaflex-care-title{
+        width:100%;
+        height: 200px;
+        background-color:#3f393a;
+    }
+    
+    p.usaflex-care-title{
+        position: absolute;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:42px;
+        margin-left:130px;
+        margin-top:75px;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:480px;
+        height:10px;
+        background-color:#d3a780;
+        margin-left:50px;
+    }
+    
+    p.text-introduction{
+        position: absolute;
+        margin-top:100px;
+        line-height: 100%;
+        font-size: 24px;
+        font-weight: 600;
+        margin-left:50px;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:250px;
+        margin-left:50px;
+    }
+    
+    /* USAFLEX CARE PRODUTO 1 */
+    section#usaflex-care-produto-1{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:500px;
+    }
+    
+    article#usaflex-care-produto-1{
+        width:580px;
+        height:600px;
+        margin-left:-290px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-1{
+        position: absolute;
+        z-index: 50;
+        margin-left:-30px;
+        margin-top:90px;
+    }
+    
+    img.care-1{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-1{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 1 */
+    div#usaflex-care-infos-1{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:430px;
+    }
+    
+    p.usaflex-care-text-1{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 1 */
+    div#usaflex-icons-1{
+        position: absolute;
+        margin-top:50px;
+        margin-left:50px;
+    }
+    
+    /* Usaflex Icons 2 */
+    div#usaflex-icons-2{
+        position: absolute;
+        margin-top:50px;
+        margin-left:320px;
+    }
+    
+    /* Usaflex Icons 3 */
+    div#usaflex-icons-3{
+        position: absolute;
+        margin-top:250px;
+        margin-left:50px;
+    }
+    
+    /* Usaflex Icons 4 */
+    div#usaflex-icons-4{
+        position: absolute;
+        margin-top:250px;
+        margin-left:320px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:120px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-produto-2{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:1700px;
+    }
+    
+    article#usaflex-care-produto-2{
+        width:580px;
+        height:600px;
+        margin-left:-290px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-2{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:90px;
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-2{
+        position:absolute;
+        float: left;
+        margin-left:300px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 2 */
+    div#usaflex-care-infos-2{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-2{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 5 */
+    div#usaflex-icons-5{
+        position: absolute;
+        margin-top:50px;
+        margin-left:50px;
+    }
+    
+    /* Usaflex Icons 6 */
+    div#usaflex-icons-6{
+        position: absolute;
+        margin-top:50px;
+        margin-left:320px;
+    }
+    
+    /* Usaflex Icons 7 */
+    div#usaflex-icons-7{
+        position: absolute;
+        margin-top:250px;
+        margin-left:50px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:120px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-produto-3{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:2900px;
+    }
+    
+    article#usaflex-care-produto-3{
+        width:580px;
+        height:600px;
+        margin-left:-290px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-3{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:90px;
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-3{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 3 */
+    div#usaflex-care-infos-3{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-3{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 8 */
+    div#usaflex-icons-8{
+        position: absolute;
+        margin-top:50px;
+        margin-left:40px;
+    }
+    
+    /* Usaflex Icons 9 */
+    div#usaflex-icons-9{
+        position: absolute;
+        margin-top:50px;
+        margin-left:320px;
+    }
+    
+    /* Usaflex Icons 10 */
+    div#usaflex-icons-10{
+        position: absolute;
+        margin-top:250px;
+        margin-left:40px;
+    }
+    
+    /* Usaflex Icons 11 */
+    div#usaflex-icons-11{
+        position: absolute;
+        margin-top:250px;
+        margin-left:320px;
+    }
+    
+    /* Usaflex Icons 12 */
+    div#usaflex-icons-12{
+        position: absolute;
+        margin-top:500px;
+        margin-left:40px;
+    }
+    
+    /* Usaflex Icons 13 */
+    div#usaflex-icons-13{
+        position: absolute;
+        margin-top:500px;
+        margin-left:320px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration: none;
+        margin-top:750px;
+        margin-left:120px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-produto-4{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:4450px;
+    }
+    
+    article#usaflex-care-produto-4{
+        width:580px;
+        height:600px;
+        margin-left:-290px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-4{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:90px;
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-4{
+        position:absolute;
+        float: left;
+        margin-left:350px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 4 */
+    div#usaflex-care-infos-4{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 14 */
+    div#usaflex-icons-14{
+        position: absolute;
+        margin-top:50px;
+        margin-left:40px;
+    }
+    
+    /* Usaflex Icons 15 */
+    div#usaflex-icons-15{
+        position: absolute;
+        margin-top:50px;
+        margin-left:320px;
+    }
+    
+    /* Usaflex Icons 16 */
+    div#usaflex-icons-16{
+        position: absolute;
+        margin-top:250px;
+        margin-left:40px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:120px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 850px;
+      background-color:#231f20;
+      margin-top:5800px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width: 550px;
+      height:850px;
+      margin-left:-280px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left: 60px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:90px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 600;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:20px;
+      font-weight: 300;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:750px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-top:110px;
+      margin-left:0px;
+    }
+}
+
+@media (min-width:470px) and (min-device-width:470px) and (max-width:629px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      width:100%;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position:absolute;
+      float: left;
+      margin-left: -220px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* USAFLEX CARE INTRO RESPONSIVE */
+    section#usaflex-care-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    
+    div#bg_1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        margin-top:210px;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    article#usaflex-care-intro-responsive{
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    div#usaflex-care-title{
+        width:100%;
+        height: 200px;
+        background-color:#3f393a;
+    }
+    
+    p.usaflex-care-title{
+        position: absolute;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:42px;
+        margin-left:50px;
+        margin-top:75px;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:320px;
+        height:10px;
+        background-color:#d3a780;
+        margin-left:50px;
+    }
+    
+    p.text-introduction{
+        position: absolute;
+        margin-top:100px;
+        line-height: 100%;
+        font-size:18px;
+        font-weight: 600;
+        margin-left:50px;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:220px;
+        margin-left:50px;
+    }
+    
+    /* USAFLEX CARE PRODUTO 1 */
+    section#usaflex-care-produto-1{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:500px;
+    }
+    
+    article#usaflex-care-produto-1{
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-1{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:70px;
+    }
+    
+    img.care-1{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-1{
+        position:absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:100px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 1 */
+    div#usaflex-care-infos-1{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:430px;
+    }
+    
+    p.usaflex-care-text-1{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 1 */
+    div#usaflex-icons-1{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 2 */
+    div#usaflex-icons-2{
+        position: absolute;
+        margin-top:50px;
+        margin-left:220px;
+    }
+    
+    /* Usaflex Icons 3 */
+    div#usaflex-icons-3{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 4 */
+    div#usaflex-icons-4{
+        position: absolute;
+        margin-top:250px;
+        margin-left:220px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:40px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-produto-2{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:1750px;
+    }
+    
+    article#usaflex-care-produto-2{
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-2{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:60px;
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-2{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:80px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 2 */
+    div#usaflex-care-infos-2{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-2{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 5 */
+    div#usaflex-icons-5{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 6 */
+    div#usaflex-icons-6{
+        position: absolute;
+        margin-top:50px;
+        margin-left:220px;
+    }
+    
+    /* Usaflex Icons 7 */
+    div#usaflex-icons-7{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:40px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-produto-3{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:2950px;
+    }
+    
+    article#usaflex-care-produto-3{
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-3{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:60px;
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-3{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:80px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 3 */
+    div#usaflex-care-infos-3{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-3{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 8 */
+    div#usaflex-icons-8{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 9 */
+    div#usaflex-icons-9{
+        position: absolute;
+        margin-top:50px;
+        margin-left:220px;
+    }
+    
+    /* Usaflex Icons 10 */
+    div#usaflex-icons-10{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 11 */
+    div#usaflex-icons-11{
+        position: absolute;
+        margin-top:250px;
+        margin-left:220px;
+    }
+    
+    /* Usaflex Icons 12 */
+    div#usaflex-icons-12{
+        position: absolute;
+        margin-top:500px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 13 */
+    div#usaflex-icons-13{
+        position: absolute;
+        margin-top:500px;
+        margin-left:220px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration: none;
+        margin-top:750px;
+        margin-left:40px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-produto-4{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:4650px;
+    }
+    
+    article#usaflex-care-produto-4{
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-4{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:70px;
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        width: 450px;
+    }
+    
+    img.produto-4{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:80px;
+        width:300px;
+    }
+    
+    /* USAFLEX CARE INFOS 4 */
+    div#usaflex-care-infos-4{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 14 */
+    div#usaflex-icons-14{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 15 */
+    div#usaflex-icons-15{
+        position: absolute;
+        margin-top:50px;
+        margin-left:220px;
+    }
+    
+    /* Usaflex Icons 16 */
+    div#usaflex-icons-16{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:200px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:40px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 30px 8px 30px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:6100px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:410px;
+      height:810px;
+      margin-left:-210px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:36px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:18px;
+      font-weight: 300;
+      margin-left:80px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:20px;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -50px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -50px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-40px;
+    }
+}
+
+@media (min-width:360px) and (min-device-width:360px) and (max-width:469px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      width:100%;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);;
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -160px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* USAFLEX CARE INTRO RESPONSIVE */
+    section#usaflex-care-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    
+    div#bg_1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        margin-top:210px;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    article#usaflex-care-intro-responsive{
+        width:320px;
+        height:600px;
+        margin-left:-160px;
+    }
+    
+    div#usaflex-care-title{
+        width:100%;
+        height: 200px;
+        background-color:#3f393a;
+    }
+    
+    p.usaflex-care-title{
+        position: absolute;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:30px;
+        margin-left:40px;
+        margin-top:85px;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:260px;
+        height:10px;
+        background-color:#d3a780;
+        margin-left:30px;
+    }
+    
+    p.text-introduction{
+        position: absolute;
+        margin-top:100px;
+        line-height: 100%;
+        font-size:18px;
+        font-weight: 600;
+        margin-left:10px;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:220px;
+        margin-left:10px;
+    }
+    
+    /* USAFLEX CARE PRODUTO 1 */
+    section#usaflex-care-produto-1{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:500px;
+    }
+    
+    article#usaflex-care-produto-1{
+        width:320px;
+        height:600px;
+        margin-left:-160px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-1{
+        position: absolute;
+        z-index: 50;
+        margin-left:-12px;
+        margin-top:70px;
+    }
+    
+    img.care-1{
+        position: absolute;
+        float: left;
+        width:350px;
+    }
+    
+    img.produto-1{
+        position:absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:100px;
+        width:250px;
+    }
+    
+    /* USAFLEX CARE INFOS 1 */
+    div#usaflex-care-infos-1{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:430px;
+    }
+    
+    p.usaflex-care-text-1{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 1 */
+    div#usaflex-icons-1{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 2 */
+    div#usaflex-icons-2{
+        position: absolute;
+        margin-top:50px;
+        margin-left:200px;
+    }
+    
+    /* Usaflex Icons 3 */
+    div#usaflex-icons-3{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 4 */
+    div#usaflex-icons-4{
+        position: absolute;
+        margin-top:250px;
+        margin-left:200px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:130px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:30px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-produto-2{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:1900px;
+    }
+    
+    article#usaflex-care-produto-2{
+        width:320px;
+        height:600px;
+        margin-left:-160px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-2{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:80px;
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        width:350px;
+    }
+    
+    img.produto-2{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:60px;
+        width:250px;
+    }
+    
+    /* USAFLEX CARE INFOS 2 */
+    div#usaflex-care-infos-2{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-2{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 5 */
+    div#usaflex-icons-5{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 6 */
+    div#usaflex-icons-6{
+        position: absolute;
+        margin-top:50px;
+        margin-left:200px;
+    }
+    
+    /* Usaflex Icons 7 */
+    div#usaflex-icons-7{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:30px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-produto-3{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:3300px;
+    }
+    
+    article#usaflex-care-produto-3{
+        width:320px;
+        height:600px;
+        margin-left:-160px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-3{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:70px;
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        width:350px;
+    }
+    
+    img.produto-3{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:80px;
+        width:250px;
+    }
+    
+    /* USAFLEX CARE INFOS 3 */
+    div#usaflex-care-infos-3{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-3{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 8 */
+    div#usaflex-icons-8{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 9 */
+    div#usaflex-icons-9{
+        position: absolute;
+        margin-top:50px;
+        margin-left:200px;
+    }
+    
+    /* Usaflex Icons 10 */
+    div#usaflex-icons-10{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 11 */
+    div#usaflex-icons-11{
+        position: absolute;
+        margin-top:250px;
+        margin-left:200px;
+    }
+    
+    /* Usaflex Icons 12 */
+    div#usaflex-icons-12{
+        position: absolute;
+        margin-top:500px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 13 */
+    div#usaflex-icons-13{
+        position: absolute;
+        margin-top:500px;
+        margin-left:200px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration: none;
+        margin-top:750px;
+        margin-left:30px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-produto-4{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:5100px;
+    }
+    
+    article#usaflex-care-produto-4{
+        width:320px;
+        height:600px;
+        margin-left:-160px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-4{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:80px;
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        width:350px;
+    }
+    
+    img.produto-4{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:80px;
+        width:250px;
+    }
+    
+    /* USAFLEX CARE INFOS 4 */
+    div#usaflex-care-infos-4{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 14 */
+    div#usaflex-icons-14{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 15 */
+    div#usaflex-icons-15{
+        position: absolute;
+        margin-top:50px;
+        margin-left:200px;
+    }
+    
+    /* Usaflex Icons 16 */
+    div#usaflex-icons-16{
+        position: absolute;
+        margin-top:270px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:600px;
+        margin-left:30px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:6780px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}
+
+@media (min-width:320px) and (min-device-width:320px) and (max-width:359px){
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    /* LAYOUT FLUIDO */
+    .responsive{
+      position: absolute;
+      left:50%;
+      right: 50%;
+    }
+
+    #desktop-version{
+      display: none;
+    }
+
+    /* Header Responsivo */
+    header#header-responsive{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+    }
+
+    /* MENU AFTER RESPONSIVE */
+    nav.menu-after-responsive{
+      position: absolute;
+      width:100%;
+      height:800px;
+      background-color:rgba(255, 255, 255, 0.9);
+      z-index:30;
+      display: none;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 1  */
+    div#menu-after-responsive-container-1{
+      position: absolute;
+      width: 100%;
+      height:100px;
+      border-bottom: 1px solid #5b5b5a;
+    }
+
+    p.menu-after-responsive-text-first-1{
+      position: relative;
+      margin-top:25px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+    p.menu-after-responsive-text-first-2{
+      position: relative;
+      margin-top:0px;
+      text-align: center;
+      font-size:14px;
+      font-weight: 300;
+      color: #5b5b5a;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 2  */
+    div#menu-after-responsive-container-2{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 100px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 3  */
+    div#menu-after-responsive-container-3{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top: 200px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 4  */
+    div#menu-after-responsive-container-4{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:300px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 5  */
+    div#menu-after-responsive-container-5{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:400px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 6  */
+    div#menu-after-responsive-container-6{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:500px;
+    }
+
+
+    /* MENU AFTER RESPONSIVE CONTAINER 7  */
+    div#menu-after-responsive-container-7{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:600px;
+    }
+
+    /* MENU AFTER RESPONSIVE CONTAINER 8  */
+    div#menu-after-responsive-container-8{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px solid #5b5b5a;
+      margin-top:700px;
+    }
+
+    p.menu-after-close{
+      position: relative;
+      margin-top:35px;
+      text-align: center;
+      font-size:24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color:#000;
+    }
+
+
+    div#menu-after-responsive-container-1:hover, div#menu-after-responsive-container-2:hover,
+    div#menu-after-responsive-container-3:hover, div#menu-after-responsive-container-4:hover,
+    div#menu-after-responsive-container-5:hover, div#menu-after-responsive-container-6:hover,
+    div#menu-after-responsive-container-7:hover, div#menu-after-responsive-container-8:hover{
+      background-color: #d9d9d9;
+      border-top: 1px solid #5b5b5a;
+      transition: all 0.4s linear;
+    }
+
+
+    figure#logo-responsive{
+      position: relative;
+      float: left;
+      margin-left: -140px;
+      margin-top:23px;
+    }
+
+    .logo-responsive{
+      width: 150px;
+    }
+
+    .menu-hamburger{
+      position: relative;
+      float:right;
+      margin-right:20px;
+      margin-top:23px;
+      cursor: pointer;
+    }
+
+    .trace{
+      width: 60px;
+      height: 5px;
+      background-color: #000;
+      margin-bottom:10px;
+    }
+
+    section#bg-fixed-responsive{
+      width: 100%;
+      height:504px;
+      background: url(../img/bg_revistaflex_responsive.png) no-repeat center center;
+      background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+
+    /* USAFLEX CARE INTRO RESPONSIVE */
+    section#usaflex-care-intro-responsive{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    
+    div#bg_1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/usaflex-care-bg.jpg) no-repeat center center;
+        margin-top:210px;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    article#usaflex-care-intro-responsive{
+        width:280px;
+        height:600px;
+        margin-left:-140px;
+    }
+    
+    div#usaflex-care-title{
+        width:100%;
+        height: 200px;
+        background-color:#3f393a;
+    }
+    
+    p.usaflex-care-title{
+        position: absolute;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:30px;
+        margin-left:25px;
+        margin-top:85px;
+    }
+    
+    div#divider_1{
+        position: absolute;
+        width:220px;
+        height:10px;
+        background-color:#d3a780;
+        margin-left:30px;
+    }
+    
+    p.text-introduction{
+        position: absolute;
+        margin-top:100px;
+        line-height: 100%;
+        font-size:18px;
+        font-weight: 600;
+        margin-left:10px;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:100px;
+        height: 3px;
+        background-color:#000;
+        margin-top:220px;
+        margin-left:10px;
+    }
+    
+    /* USAFLEX CARE PRODUTO 1 */
+    section#usaflex-care-produto-1{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:500px;
+    }
+    
+    article#usaflex-care-produto-1{
+        width:280px;
+        height:600px;
+        margin-left:-140px;
+    }
+    
+    div#usaflex-care-bg-1{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-1{
+        position: absolute;
+        z-index: 50;
+        margin-left:-20px;
+        margin-top:110px;
+    }
+    
+    img.care-1{
+        position: absolute;
+        float: left;
+        width:320px;
+    }
+    
+    img.produto-1{
+        position:absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:70px;
+        width:200px;
+    }
+    
+    /* USAFLEX CARE INFOS 1 */
+    div#usaflex-care-infos-1{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:430px;
+    }
+    
+    p.usaflex-care-text-1{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 1 */
+    div#usaflex-icons-1{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 2 */
+    div#usaflex-icons-2{
+        position: absolute;
+        margin-top:50px;
+        margin-left:160px;
+    }
+    
+    /* Usaflex Icons 3 */
+    div#usaflex-icons-3{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 4 */
+    div#usaflex-icons-4{
+        position: absolute;
+        margin-top:250px;
+        margin-left:160px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    p.text-icon{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top:90px;
+        width:130px;
+    }
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:10px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 2 */
+    section#usaflex-care-produto-2{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:1900px;
+    }
+    
+    article#usaflex-care-produto-2{
+        width:280px;
+        height:600px;
+        margin-left:-140px;
+    }
+    
+    div#usaflex-care-bg-2{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-yellow.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-2{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:110px;
+    }
+    
+    img.care-2{
+        position: absolute;
+        float: left;
+        width:300px;
+    }
+    
+    img.produto-2{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:40px;
+        width:200px;
+    }
+    
+    /* USAFLEX CARE INFOS 2 */
+    div#usaflex-care-infos-2{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-2{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 5 */
+    div#usaflex-icons-5{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 6 */
+    div#usaflex-icons-6{
+        position: absolute;
+        margin-top:50px;
+        margin-left:160px;
+    }
+    
+    /* Usaflex Icons 7 */
+    div#usaflex-icons-7{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:500px;
+        margin-left:10px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* USAFLEX CARE PRODUTO 3 */
+    section#usaflex-care-produto-3{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:3300px;
+    }
+    
+    article#usaflex-care-produto-3{
+        width:280px;
+        height:600px;
+        margin-left:-140px;
+    }
+    
+    div#usaflex-care-bg-3{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg-usalfex-care-white.jpg) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-3{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:110px;
+    }
+    
+    img.care-3{
+        position: absolute;
+        float: left;
+        width:300px;
+    }
+    
+    img.produto-3{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:60px;
+        width:200px;
+    }
+    
+    /* USAFLEX CARE INFOS 3 */
+    div#usaflex-care-infos-3{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-3{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 8 */
+    div#usaflex-icons-8{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 9 */
+    div#usaflex-icons-9{
+        position: absolute;
+        margin-top:50px;
+        margin-left:160px;
+    }
+    
+    /* Usaflex Icons 10 */
+    div#usaflex-icons-10{
+        position: absolute;
+        margin-top:250px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 11 */
+    div#usaflex-icons-11{
+        position: absolute;
+        margin-top:250px;
+        margin-left:160px;
+    }
+    
+    /* Usaflex Icons 12 */
+    div#usaflex-icons-12{
+        position: absolute;
+        margin-top:500px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 13 */
+    div#usaflex-icons-13{
+        position: absolute;
+        margin-top:500px;
+        margin-left:160px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    a.btn-linha-completa-2{
+        position: absolute;
+        text-decoration: none;
+        margin-top:750px;
+        margin-left:10px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa-2:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    
+    /* USAFLEX CARE PRODUTO 4 */
+    section#usaflex-care-produto-4{
+        position: absolute;
+        width:100%;
+        height: 800px;
+        margin-top:5100px;
+    }
+    
+    article#usaflex-care-produto-4{
+        width:280px;
+        height:600px;
+        margin-left:-140px;
+    }
+    
+    div#usaflex-care-bg-4{
+        position: absolute;
+        width:100%;
+        height:400px;
+        background:url(../img/bg_faleconosco_1.png) no-repeat center center;
+        background-size: cover; /*Css padrão*/
+      -webkit-background-size: cover; /*Css safari e chrome*/
+      -moz-background-size: cover; /*Css firefox*/
+      -ms-background-size: cover; /*Css IE */
+      -o-background-size: cover; /*Css Opera*/
+    }
+    
+    figure#usaflex-care-produto-4{
+        position: absolute;
+        z-index: 50;
+        margin-left:-10px;
+        margin-top:110px;
+    }
+    
+    img.care-4{
+        position: absolute;
+        float: left;
+        width:300px;
+    }
+    
+    img.produto-4{
+        position:absolute;
+        float: left;
+        margin-left:-10px;
+        margin-top:60px;
+        width:200px;
+    }
+    
+    /* USAFLEX CARE INFOS 4 */
+    div#usaflex-care-infos-4{
+        position: absolute;
+        width:100%;
+        height:900px;
+        margin-top:450px;
+    }
+    
+    p.usaflex-care-text-4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    /* Usaflex Icons 14 */
+    div#usaflex-icons-14{
+        position: absolute;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    
+    /* Usaflex Icons 15 */
+    div#usaflex-icons-15{
+        position: absolute;
+        margin-top:50px;
+        margin-left:160px;
+    }
+    
+    /* Usaflex Icons 16 */
+    div#usaflex-icons-16{
+        position: absolute;
+        margin-top:270px;
+        margin-left:10px;
+    }
+    
+    img.care-icon{
+        position: absolute;
+        float: left;
+        margin-left:-10px;
+    }
+    
+    
+    a.btn-linha-completa{
+        position: absolute;
+        text-decoration: none;
+        margin-top:600px;
+        margin-left:10px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:1px solid #000;
+        padding: 8px 20px 8px 20px;
+        font-size: 12px;
+    }
+    
+    a.btn-linha-completa:hover{
+        background-color: #000;
+        color:#fff;
+        transition: all 0.4s linear;
+    }
+    
+    /* FOOTER RESPONSIVE */
+    footer#footer-responsive{
+      width:100%;
+      height: 810px;
+      background-color:#231f20;
+      margin-top:6850px;
+    }
+
+    article#footer-responsive{
+      position: absolute;
+      width:300px;
+      height:810px;
+      margin-left:-153px;
+    }
+
+    div#footer-infos-responsive-1{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:60px;
+    }
+
+    p.footer-responsive-info-t-1{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-left:30px;
+    }
+
+    p.footer-responsive-info-t-2{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:24px;
+      margin-left:30px;
+    }
+
+    .phone{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+      margin-top:10px;
+    }
+
+    div#footer-infos-responsive-2{
+      position: absolute;
+      float: left;
+      margin-left:50px;
+      margin-top:150px;
+    }
+
+    p.footer-responsive-info-t-3{
+      position: relative;
+      color:#fff;
+      font-size:12px;
+      font-weight: 300;
+      margin-left:30px;
+    }
+
+    .pin{
+      position: relative;
+      float: left;
+      width:40px;
+      margin-left: -20px;
+    }
+
+    a.btn-ver-mapa{
+      position: absolute;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+    }
+
+    a.btn-ver-mapa:hover{
+      position: absolute;
+      color:#231f20;
+      font-size:14px;
+      font-weight: 300;
+      margin-left:20px;
+      margin-top:280px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 95px 8px 95px;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+
+    div#footer-infos-line-1{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:390px;
+    }
+
+    div#footer-infos-responsive-3{
+      position: absolute;
+      margin-top:450px;
+      margin-left: 90px;
+    }
+
+    p.footer-responsive-info-t-4{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:18px;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-5{
+      position: relative;
+      color:#fff;
+      text-transform: uppercase;
+      font-size:14px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-6{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-1{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    p.footer-responsive-info-t-7{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 600;
+      margin-left: -85px;
+    }
+
+    a.footer-responsive-email-2{
+      position: relative;
+      color:#fff;
+      font-size:16px;
+      font-weight: 300;
+      margin-left: -85px;
+    }
+
+    div#footer-infos-line-2{
+      position: absolute;
+      width: 100%;
+      height:1px;
+      background-color: #fff;
+      margin-top:700px;
+    }
+
+    p.text-copyright-responsive{
+      position: relative;
+      color:#fff;
+      font-size:14px;
+      font-weight: 300;
+      margin-top:100px;
+      margin-left:-85px;
+    }
+}

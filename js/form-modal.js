@@ -1,0 +1,69 @@
+$('.btn-form-1').click(function(){
+   $('#atendimento-ao-consumidor').show();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-2').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').show();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-3').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').show();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-4').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').show();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-5').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').show();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-6').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').show();
+   $('#ouvidoria').hide();
+});
+
+$('.btn-form-7').click(function(){
+   $('#atendimento-ao-consumidor').hide();
+   $('#atendimento-ao-lojista').hide();
+   $('#trabalhe-conosco').hide();
+   $('#comunicacao-e-marketing').hide();
+   $('#fale-com-a-diretoria').hide();
+   $('#cadastro-de-novidades').hide();
+   $('#ouvidoria').show();
+});
