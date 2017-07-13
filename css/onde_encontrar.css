@@ -228,11 +228,12 @@
     p.text-empresa{
       position: absolute;
       float: left;
-      margin-left:400px;
+      margin-left:300px;
       margin-top:80px;
       text-transform: uppercase;
       font-weight:100;
       font-size: 30px;
+      width:300px;
     }
 
     /* BG EMPRESA */
@@ -256,285 +257,251 @@
       height: 350px;
     }
     
-    /* TECNOLOGIA INTRO */
-    section#tecnologia-intro{
+    /* ONDE ENCONTRAR INTRO */
+    section#onde-encontrar-intro{
         position: absolute;
         width:100%;
-        height:600px;
-        margin-top:360px;
-    }
-    
-    article#tecnologia-intro{
-        width:1280px;
-        height:600px;
-        margin-left:-640px;
-    }
-    
-    div#tecnologia-bg{
-        position: absolute;
-        width:100%;
-        height: 400px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
-        background-size: cover; /*Css padrão*/
+        height:400px;
+        background: url(../img/bg-onde-encontrar.jpg) no-repeat center center;
+      background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:360px;
     }
     
-    div#tecnologia-intro-title{
+    /* ONDE ENCONTRAR INTRO */
+    article#onde-encontrar-intro{
+        width:1280px;
+        height:400px;
+        margin-left: -640px;
+    }
+    
+    div#onde-encontrar-infos{
         position: absolute;
-        float:left;
-        margin-left:100px;
-        margin-top:130px;
+        margin-left:60px;
+        margin-top:70px;
+        width:400px;
     }
     
-    p.tecnologia-intro-title{
+    p.onde-encontrar-title-1{
+        position: absolute;
         font-size: 24px;
-        font-weight: 600;
         color:#fff;
+        font-weight: 600;
         text-transform: uppercase;
         line-height: 100%;
     }
     
-    div#divider_1{
+    div#divider{
         position: absolute;
-        width:70px;
+        width:100px;
         height: 3px;
         background-color:#fff;
-        margin-top:30px;
+        margin-top:160px;
     }
     
-    img.tecnologia-sapato{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        margin-left:200px;
-        width: 400px;
-        margin-top:250px;
-        z-index: 20;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:570px;
-        margin-top:330px;
-        padding: 10px 10px 10px 10px;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:12px;
+        font-size:14px;
+        color:#fff;
+        font-weight: 300;
         text-transform: uppercase;
-        font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:410px;
+        margin-top:200px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:900px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
         width:1280px;
-        height:800px;
+        height:600px;
         margin-left:-640px;
     }
     
-    /* COURO */
-    figure#couro{
+    p.form-title{
         position: absolute;
-        margin-top:150px;
-        margin-left:100px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:140px;
+        margin-top:70px;
     }
     
-    p.couro-title{
+    /* FORM 1 */
+    div#form-1{
+        position: absolute;
+        margin-top:200px;
+        margin-left:60px;
+    }
+    
+    p.form-title-1{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 150px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:200px;
+        margin-left:490px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 182px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:200px;
+        margin-left:920px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 102px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:60px;
+        margin-top:700px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
         text-transform: uppercase;
     }
     
-    img.tec-icon-1{
+    div#divider_2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
     }
     
-    p.couro-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
-    div#divider_tec_1{
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
         position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:40px;
+        width:100%;
+        height:500px;
+        background-color:#ebebeb;
+        margin-top:1550px;
     }
     
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
+    article#logotipos-lojas{
+        width: 1280px;
+        height: 500px;
+        margin-left:-640px;
+    }
+    
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:150px;
-        margin-left:500px;
+        float: left;
+        width:1200px;
+        height: 500px;
+        margin-left:80px;
+        margin-top:100px;
     }
     
-    p.conforto-anatomico-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
-    
-    img.tec-icon-2{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:50px;
-    }
-    
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
-        position: absolute;
-        margin-top:150px;
-        margin-left:900px;
-    }
-    
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:62px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:550px;
-        margin-left:100px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:550px;
-        margin-left:500px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:550px;
-        margin-left:900px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:300px;
-    }
-    
     
     /* FOOTER */
     footer#rodape{
       position: absolute;
       width: 100%;
       height: 200px;
-      margin-top:1700px;
-      border-top:1px solid #000;
+      margin-top:2050px;
     }
 
     article#rodape-area{
@@ -953,7 +920,7 @@
     p.text-empresa{
       position: absolute;
       float: left;
-      margin-left:250px;
+      margin-left:180px;
       margin-top:80px;
       text-transform: uppercase;
       font-weight:100;
@@ -981,275 +948,244 @@
       height: 350px;
     }
     
-    /* TECNOLOGIA INTRO */
-    section#tecnologia-intro{
+    /* ONDE ENCONTRAR INTRO */
+    section#onde-encontrar-intro{
         position: absolute;
         width:100%;
-        height:600px;
-        margin-top:360px;
-    }
-    
-    article#tecnologia-intro{
-        width:970px;
-        height:600px;
-        margin-left:-640px;
-    }
-    
-    div#tecnologia-bg{
-        position: absolute;
-        width:100%;
-        height: 400px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
-        background-size: cover; /*Css padrão*/
+        height:400px;
+        background: url(../img/bg-onde-encontrar.jpg) no-repeat center center;
+      background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:360px;
     }
     
-    div#tecnologia-intro-title{
+    /* ONDE ENCONTRAR INTRO */
+    article#onde-encontrar-intro{
+        width:980px;
+        height:400px;
+        margin-left: -640px;
+    }
+    
+    div#onde-encontrar-infos{
         position: absolute;
-        float:left;
         margin-left:200px;
-        margin-top:130px;
+        margin-top:70px;
+        width:400px;
     }
     
-    p.tecnologia-intro-title{
+    p.onde-encontrar-title-1{
+        position: absolute;
         font-size: 24px;
-        font-weight: 600;
         color:#fff;
+        font-weight: 600;
         text-transform: uppercase;
         line-height: 100%;
     }
     
-    div#divider_1{
+    div#divider{
         position: absolute;
-        width:70px;
+        width:100px;
         height: 3px;
         background-color:#fff;
-        margin-top:30px;
+        margin-top:160px;
     }
     
-    img.tecnologia-sapato{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        margin-left:200px;
-        width: 400px;
-        margin-top:250px;
-        z-index: 20;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:570px;
-        margin-top:330px;
-        padding: 10px 10px 10px 10px;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:12px;
+        font-size:14px;
+        color:#fff;
+        font-weight: 300;
         text-transform: uppercase;
-        font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:410px;
+        margin-top:200px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:900px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
-        width:1280px;
-        height:800px;
+    article#onde-encontrar-form{
+        position: absolute;
+        width:960px;
+        height:600px;
+        margin-left:-480px;
+    }
+    
+    p.form-title{
+        position: absolute;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:0px;
+        margin-top:70px;
+        text-align: center;
+    }
+    
+    /* FORM 1 */
+    div#form-1{
+        position: absolute;
+        margin-top:200px;
+        margin-left:0px;
+    }
+    
+    p.form-title-1{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 150px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:200px;
+        margin-left:350px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 182px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:200px;
+        margin-left:710px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 102px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:60px;
+        margin-top:700px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
+        position: absolute;
+        width:100%;
+        height:500px;
+        background-color:#ebebeb;
+        margin-top:1550px;
+    }
+    
+    article#logotipos-lojas{
+        width:960px;
+        height: 500px;
         margin-left:-640px;
     }
     
-    /* COURO */
-    figure#couro{
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:150px;
-        margin-left:200px;
+        float: left;
+        width:960px;
+        height: 500px;
+        margin-left:160px;
+        margin-top:70px;
     }
     
-    p.couro-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:40px;
-    }
-    
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
-        position: absolute;
-        margin-top:150px;
-        margin-left:520px;
-    }
-    
-    p.conforto-anatomico-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-2{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:50px;
-    }
-    
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
-        position: absolute;
-        margin-top:150px;
-        margin-left:850px;
-    }
-    
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:62px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:550px;
-        margin-left:200px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:550px;
-        margin-left:520px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:550px;
-        margin-left:850px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
     
    /* FOOTER */
@@ -1257,8 +1193,7 @@
       position: absolute;
       width: 100%;
       height: 200px;
-      margin-top:1750px;
-      border-top:1px solid #000;
+      margin-top:2050px;
     }
 
     article#rodape-area{
@@ -1680,7 +1615,7 @@
     p.text-empresa{
       position: absolute;
       float: left;
-      margin-left:250px;
+      margin-left:170px;
       margin-top:80px;
       text-transform: uppercase;
       font-weight:100;
@@ -1708,275 +1643,244 @@
       height: 350px;
     }
 
-        /* TECNOLOGIA INTRO */
-    section#tecnologia-intro{
+    /* ONDE ENCONTRAR INTRO */
+    section#onde-encontrar-intro{
         position: absolute;
         width:100%;
-        height:600px;
-        margin-top:360px;
-    }
-    
-    article#tecnologia-intro{
-        width:970px;
-        height:600px;
-        margin-left:-640px;
-    }
-    
-    div#tecnologia-bg{
-        position: absolute;
-        width:100%;
-        height: 400px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
-        background-size: cover; /*Css padrão*/
+        height:400px;
+        background: url(../img/bg-onde-encontrar.jpg) no-repeat center center;
+      background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:360px;
     }
     
-    div#tecnologia-intro-title{
+    /* ONDE ENCONTRAR INTRO */
+    article#onde-encontrar-intro{
+        width:980px;
+        height:400px;
+        margin-left: -540px;
+    }
+    
+    div#onde-encontrar-infos{
         position: absolute;
-        float:left;
-        margin-left:200px;
-        margin-top:130px;
+        margin-left:130px;
+        margin-top:70px;
+        width:400px;
     }
     
-    p.tecnologia-intro-title{
+    p.onde-encontrar-title-1{
+        position: absolute;
         font-size: 24px;
-        font-weight: 600;
         color:#fff;
+        font-weight: 600;
         text-transform: uppercase;
         line-height: 100%;
     }
     
-    div#divider_1{
+    div#divider{
         position: absolute;
-        width:70px;
+        width:100px;
         height: 3px;
         background-color:#fff;
-        margin-top:30px;
+        margin-top:160px;
     }
     
-    img.tecnologia-sapato{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        margin-left:200px;
-        width: 400px;
-        margin-top:250px;
-        z-index: 20;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:570px;
-        margin-top:330px;
-        padding: 10px 10px 10px 10px;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:12px;
+        font-size:14px;
+        color:#fff;
+        font-weight: 300;
         text-transform: uppercase;
-        font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:410px;
+        margin-top:200px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:900px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
-        width:1280px;
-        height:800px;
+    article#onde-encontrar-form{
+        position: absolute;
+        width:960px;
+        height:600px;
+        margin-left:-480px;
+    }
+    
+    p.form-title{
+        position: absolute;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:0px;
+        margin-top:70px;
+        text-align: center;
+    }
+    
+    /* FORM 1 */
+    div#form-1{
+        position: absolute;
+        margin-top:200px;
+        margin-left:30px;
+    }
+    
+    p.form-title-1{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 150px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:200px;
+        margin-left:350px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 182px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:200px;
+        margin-left:680px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 102px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:250px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:60px;
+        margin-top:700px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
+        position: absolute;
+        width:100%;
+        height:500px;
+        background-color:#ebebeb;
+        margin-top:1550px;
+    }
+    
+    article#logotipos-lojas{
+        width:960px;
+        height: 500px;
         margin-left:-640px;
     }
     
-    /* COURO */
-    figure#couro{
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:150px;
-        margin-left:200px;
+        float: left;
+        width:960px;
+        height: 500px;
+        margin-left:170px;
+        margin-top:70px;
     }
     
-    p.couro-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:40px;
-    }
-    
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
-        position: absolute;
-        margin-top:150px;
-        margin-left:520px;
-    }
-    
-    p.conforto-anatomico-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-2{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
-    }
-    
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
-        position: absolute;
-        margin-top:150px;
-        margin-left:850px;
-    }
-    
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:550px;
-        margin-left:200px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:550px;
-        margin-left:520px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:550px;
-        margin-left:850px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
     
     /* FOOTER */
@@ -1984,8 +1888,7 @@
       position: absolute;
       width: 100%;
       height: 200px;
-      margin-top:1750px;
-      border-top:1px solid #000;
+      margin-top:2050px;
     }
 
     article#rodape-area{
@@ -2184,6 +2087,7 @@
     body{
       font-family: 'Montserrat', sans-serif;
       overflow-x: hidden;
+      width:100%;
     }
 
     /* LAYOUT FLUIDO */
@@ -2363,299 +2267,262 @@
       -o-background-size: cover; /*Css Opera*/
     }
     
-    /* TECNOLOGIA INTRO RESPONSIVE */
-    section#tecnologia-intro-responsive{
+    /* ONDE ENCONTRAR RESPONSIVE */
+    section#onde-encontrar-intro-responsive{
         position: absolute;
         width:100%;
-        height:600px;
+        height:750px;
     }
     
-    article#tecnologia-intro-responsive{
+    article#onde-encontrar-intro-responsive{
         width:700px;
-        height:600px;
+        height:700px;
         margin-left:-350px;
     }
     
-    div#tecnologia-intro-title{
+    div#onde-encontrar-title{
         position: absolute;
         width:100%;
         height: 200px;
-        background-color:#d3a780;
+        background-color:#3c3c3b;
     }
     
-    p.tecnologia-title{
+    p.onde-encontrar-title{
         position: absolute;
-        font-size:42px;
+        font-size: 42px;
         color:#fff;
-        text-transform: uppercase;
         font-weight: 600;
-        margin-left:210px;
-        margin-top:80px;
+        text-transform: uppercase;
+        margin-left:140px;
+        margin-top:70px;
     }
     
-    div#tecnologia-bg{
+    div#onde-encontrar-bg{
         position: absolute;
         width:100%;
         height: 300px;
-        margin-top:200px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
+        background:url(../img/bg-onde-encontrar.jpg) no-repeat center center;
       background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:200px;
     }
     
-    div#tecnologia-intro-title-2{
+    div#onde-encontrar-title-2{
         position: absolute;
         width:100%;
-        height: 200px;
-        background-color:#3c3c3b;
+        height:200px;
+        background-color:#d3a780;
         margin-top:500px;
     }
     
-    p.tecnologia-bg-title{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        font-size:24px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 24px;
         color:#fff;
-        line-height: 100%;
-        margin-left:200px;
-        margin-top:60px;
-        text-align: center;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:80px;
-        margin-top:450px;
-        padding: 10px 10px 10px 10px;
-        display:none;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:14px;
         text-transform: uppercase;
         font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:480px;
+        text-align: center;
+        margin-top:40px;
+        margin-left:180px;
     }
     
-    div#divider{
+    div#divider_1{
         position: absolute;
-        width: 600px;
-        height:10px;
-        background-color:#000;
+        width:600px;
+        height: 10px;
+        background-color: #000;
         margin-top:700px;
         margin-left:50px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:700px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
         width:700px;
-        height:800px;
-        margin-left:-360px;
+        height:600px;
+        margin-left:-350px;
     }
     
-    /* COURO */
-    figure#couro{
+    p.form-title{
         position: absolute;
-        margin-top:150px;
-        margin-left:100px;
-    }
-    
-    p.couro-title{
         font-size: 14px;
-        font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
+        font-weight: 600;
+        margin-left:140px;
         margin-top:40px;
+        text-align: center;
+        width:400px;
     }
     
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
+    /* FORM 1 */
+    div#form-1{
         position: absolute;
-        margin-top:150px;
-        margin-left:400px;
-    }
-    
-    p.conforto-anatomico-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-2{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
-    }
-    
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
-        position: absolute;
-        margin-top:550px;
+        margin-top:200px;
         margin-left:100px;
     }
     
-    p.memoria-permanente-title{
+    p.form-title-1{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 400px 8px 20px;
     }
     
-    img.tec-icon-3{
+    /* FORM 2 */
+    div#form-2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:550px;
-        margin-left:400px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_4{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:45px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:950px;
+        margin-top:400px;
         margin-left:100px;
     }
     
-    p.solado-resistente-title{
+    p.form-title-2{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 432px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:650px;
+        margin-left:100px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 352px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:60px;
+        margin-top:1200px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
         text-transform: uppercase;
     }
     
-    img.tec-icon-5{
+    div#divider_2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
     }
     
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
         position: absolute;
-        margin-top:950px;
-        margin-left:400px;
+        width:100%;
+        height:600px;
+        background-color:#ebebeb;
+        margin-top:2050px;
     }
     
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
+    article#logotipos-lojas{
+        width:700px;
+        height: 600px;
+        margin-left:-350px;
     }
     
-    img.tec-icon-6{
+    figure#logotipos-lojas{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        float: left;
+        width:700px;
+        height: 500px;
+        margin-left:25px;
+        margin-top:60px;
     }
     
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
     
     /* FOOTER RESPONSIVE */
@@ -2663,7 +2530,7 @@
       width:100%;
       height: 850px;
       background-color:#231f20;
-      margin-top:1900px;
+      margin-top:2650px;
     }
 
     article#footer-responsive{
@@ -3020,299 +2887,262 @@
       -o-background-size: cover; /*Css Opera*/
     }
     
-    /* TECNOLOGIA INTRO RESPONSIVE */
-    section#tecnologia-intro-responsive{
+    /* ONDE ENCONTRAR INTRO RESPONSIVE */
+    section#onde-encontrar-intro-responsive{
         position: absolute;
         width:100%;
-        height:600px;
+        height:750px;
     }
     
-    article#tecnologia-intro-responsive{
+    article#onde-encontrar-intro-responsive{
         width:580px;
-        height:600px;
+        height:700px;
         margin-left:-290px;
     }
     
-    div#tecnologia-intro-title{
+    div#onde-encontrar-title{
         position: absolute;
         width:100%;
         height: 200px;
-        background-color:#d3a780;
+        background-color:#3c3c3b;
     }
     
-    p.tecnologia-title{
+    p.onde-encontrar-title{
         position: absolute;
-        font-size:42px;
+        font-size: 42px;
         color:#fff;
-        text-transform: uppercase;
         font-weight: 600;
-        margin-left:150px;
-        margin-top:80px;
+        text-transform: uppercase;
+        margin-left:85px;
+        margin-top:70px;
     }
     
-    div#tecnologia-bg{
+    div#onde-encontrar-bg{
         position: absolute;
         width:100%;
         height: 300px;
-        margin-top:200px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
+        background:url(../img/bg-onde-encontrar.jpg) no-repeat center center;
       background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:200px;
     }
     
-    div#tecnologia-intro-title-2{
+    div#onde-encontrar-title-2{
         position: absolute;
         width:100%;
-        height: 200px;
-        background:#3c3c3b;
+        height:200px;
+        background-color:#d3a780;
         margin-top:500px;
     }
     
-    p.tecnologia-bg-title{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        font-size:24px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 24px;
         color:#fff;
-        line-height: 100%;
-        margin-left:140px;
-        margin-top:60px;
-        text-align:center;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:20px;
-        margin-top:450px;
-        padding: 10px 10px 10px 10px;
-        display: none;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:14px;
         text-transform: uppercase;
         font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:480px;
+        text-align: center;
+        margin-top:40px;
+        margin-left:130px;
     }
     
-    div#divider{
+    div#divider_1{
         position: absolute;
-        width:480px;
-        height:10px;
-        background-color:#000;
+        width:470px;
+        height: 10px;
+        background-color: #000;
         margin-top:700px;
-        margin-left:55px;
+        margin-left:50px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:700px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
         width:580px;
-        height:800px;
+        height:600px;
         margin-left:-290px;
     }
     
-    /* COURO */
-    figure#couro{
+    p.form-title{
         position: absolute;
-        margin-top:150px;
-        margin-left:30px;
-    }
-    
-    p.couro-title{
         font-size: 14px;
-        font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
+        font-weight: 600;
+        margin-left:90px;
         margin-top:40px;
+        text-align: center;
+        width:400px;
     }
     
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
+    /* FORM 1 */
+    div#form-1{
         position: absolute;
-        margin-top:150px;
-        margin-left:320px;
+        margin-top:200px;
+        margin-left:40px;
     }
     
-    p.conforto-anatomico-title{
+    p.form-title-1{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 400px 8px 20px;
     }
     
-    img.tec-icon-2{
+    /* FORM 2 */
+    div#form-2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        margin-top:400px;
+        margin-left:40px;
     }
     
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 432px 8px 20px;
     }
     
-    div#divider_tec_2{
+    /* FORM 3 */
+    div#form-3{
         position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
+        margin-top:650px;
+        margin-left:40px;
     }
     
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 352px 8px 20px;
+    }
+    
+    
+    select.estado{
         position: absolute;
-        margin-top:550px;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:500px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
         margin-left:30px;
+        margin-top:1200px;
     }
     
-    p.memoria-permanente-title{
-        font-size: 14px;
+    p.lojas-online-title{
+        font-size: 18px;
         font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
     }
     
-    img.tec-icon-3{
+    div#divider_2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
     }
     
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
         position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
+        width:100%;
+        height:600px;
+        background-color:#ebebeb;
+        margin-top:2050px;
     }
     
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
+    article#logotipos-lojas{
+        width:580px;
+        height: 600px;
+        margin-left:-290px;
+    }
+    
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:550px;
-        margin-left:320px;
+        float: left;
+        width:700px;
+        height: 500px;
+        margin-left:-30px;
+        margin-top:60px;
     }
     
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_4{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:45px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:950px;
-        margin-left:30px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:950px;
-        margin-left:320px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
     
     /* FOOTER RESPONSIVE */
@@ -3320,7 +3150,7 @@
       width:100%;
       height: 850px;
       background-color:#231f20;
-      margin-top:1900px;
+      margin-top:2650px;
     }
 
     article#footer-responsive{
@@ -3678,299 +3508,262 @@
       -o-background-size: cover; /*Css Opera*/
     }
 
-    /* TECNOLOGIA INTRO RESPONSIVE */
-    section#tecnologia-intro-responsive{
+    /* ONDE ENCONTRAR INTRO RESPONSIVE */
+    section#onde-encontrar-intro-responsive{
         position: absolute;
         width:100%;
-        height:600px;
+        height:750px;
     }
     
-    article#tecnologia-intro-responsive{
+    article#onde-encontrar-intro-responsive{
         width:420px;
-        height:600px;
+        height:700px;
         margin-left:-210px;
     }
     
-    div#tecnologia-intro-title{
+    div#onde-encontrar-title{
         position: absolute;
         width:100%;
         height: 200px;
-        background-color:#d3a780;
+        background-color:#3c3c3b;
     }
     
-    p.tecnologia-title{
+    p.onde-encontrar-title{
         position: absolute;
-        font-size:42px;
+        font-size:36px;
         color:#fff;
-        text-transform: uppercase;
         font-weight: 600;
-        margin-left:70px;
+        text-transform: uppercase;
+        margin-left:35px;
         margin-top:80px;
     }
     
-    div#tecnologia-bg{
+    div#onde-encontrar-bg{
         position: absolute;
         width:100%;
         height: 300px;
-        margin-top:200px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
+        background:url(../img/bg-onde-encontrar.jpg) no-repeat center center;
       background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:200px;
     }
     
-    div#tecnologia-intro-title-2{
+    div#onde-encontrar-title-2{
         position: absolute;
         width:100%;
         height:200px;
-        background-color:#3c3c3b;
+        background-color:#d3a780;
         margin-top:500px;
     }
     
-    p.tecnologia-bg-title{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
-        font-size:24px;
-        text-transform: uppercase;
-        font-weight: 600;
+        font-size: 24px;
         color:#fff;
-        line-height: 100%;
-        margin-left:62px;
-        margin-top:60px;
-        text-align: center;
-    }
-    
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:-10px;
-        margin-top:450px;
-        padding: 10px 10px 10px 10px;
-        display: none;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:11px;
         text-transform: uppercase;
         font-weight: 600;
         line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        width:378px;
+        text-align: center;
+        margin-top:40px;
+        margin-left:50px;
     }
     
-    div#divider{
+    div#divider_1{
         position: absolute;
-        width:380px;
-        height:10px;
-        background-color:#000;
+        width:320px;
+        height: 10px;
+        background-color: #000;
         margin-top:700px;
-        margin-left:20px;
+        margin-left:50px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:700px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
+        width:420px;
+        height:600px;
+        margin-left:-210px;
+    }
+    
+    p.form-title{
+        position: absolute;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left:10px;
+        margin-top:40px;
+        text-align: center;
+        width:400px;
+    }
+    
+    /* FORM 1 */
+    div#form-1{
+        position: absolute;
+        margin-top:200px;
+        margin-left:10px;
+    }
+    
+    p.form-title-1{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 300px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:400px;
+        margin-left:10px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 332px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:650px;
+        margin-left:10px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 252px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:400px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:400px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:400px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:10px;
+        margin-top:1200px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    div#divider_2{
+        position: absolute;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
+    }
+    
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
+        position: absolute;
+        width:100%;
+        height:800px;
+        background-color:#ebebeb;
+        margin-top:2050px;
+    }
+    
+    article#logotipos-lojas{
         width:420px;
         height:800px;
         margin-left:-210px;
     }
     
-    /* COURO */
-    figure#couro{
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:150px;
-        margin-left:100px;
+        float: left;
+        width:500px;
+        height: 500px;
+        margin-left:-40px;
+        margin-top:60px;
     }
     
-    p.couro-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:40px;
-    }
-    
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
-        position: absolute;
-        margin-top:600px;
-        margin-left:100px;
-    }
-    
-    p.conforto-anatomico-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-2{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
-    }
-    
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
-        position: absolute;
-        margin-top:1050px;
-        margin-left:100px;
-    }
-    
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:1500px;
-        margin-left:100px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_4{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:45px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:1950px;
-        margin-left:100px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:2300px;
-        margin-left:100px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
     
     /* FOOTER RESPONSIVE */
@@ -3978,7 +3771,7 @@
       width:100%;
       height: 810px;
       background-color:#231f20;
-      margin-top:3200px;
+      margin-top:2850px;
     }
 
     article#footer-responsive{
@@ -4342,299 +4135,262 @@
       -o-background-size: cover; /*Css Opera*/
     }
 
-    /* TECNOLOGIA INTRO RESPONSIVE */
-    section#tecnologia-intro-responsive{
+    /* ONDE ENCONTRAR INTRO RESPONSIVE */
+    section#onde-encontrar-intro-responsive{
         position: absolute;
         width:100%;
-        height:600px;
+        height:750px;
     }
     
-    article#tecnologia-intro-responsive{
+    article#onde-encontrar-intro-responsive{
         width:320px;
-        height:600px;
+        height:700px;
         margin-left:-160px;
     }
     
-    div#tecnologia-intro-title{
+    div#onde-encontrar-title{
         position: absolute;
         width:100%;
         height: 200px;
-        background-color:#d3a780;
+        background-color:#3c3c3b;
     }
     
-    p.tecnologia-title{
+    p.onde-encontrar-title{
         position: absolute;
-        font-size:36px;
+        font-size:30px;
         color:#fff;
-        text-transform: uppercase;
         font-weight: 600;
-        margin-left:45px;
-        margin-top:80px;
+        text-transform: uppercase;
+        margin-left:12px;
+        margin-top:90px;
     }
     
-    div#tecnologia-bg{
+    div#onde-encontrar-bg{
         position: absolute;
         width:100%;
         height: 300px;
-        margin-top:200px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
+        background:url(../img/bg-onde-encontrar.jpg) no-repeat center center;
       background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:200px;
     }
     
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:-10px;
-        margin-top:450px;
-        padding: 10px 10px 10px 10px;
-        display: none;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:10px;
-        text-transform: uppercase;
-        font-weight: 600;
-        line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        text-align:left;
-    }
-    
-    div#divider{
-        position: absolute;
-        width:270px;
-        height:10px;
-        background-color:#000;
-        margin-top:700px;
-        margin-left:20px;
-    }
-    
-    div#tecnologia-intro-title-2{
+    div#onde-encontrar-title-2{
         position: absolute;
         width:100%;
-        height: 200px;
-        background-color:#3c3c3b;
+        height:200px;
+        background-color:#d3a780;
         margin-top:500px;
     }
     
-    p.tecnologia-bg-title{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
         font-size:18px;
+        color:#fff;
         text-transform: uppercase;
         font-weight: 600;
-        color:#fff;
         line-height: 100%;
-        margin-left:50px;
-        margin-top:70px;
         text-align: center;
+        margin-top:50px;
+        margin-left:40px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    div#divider_1{
+        position: absolute;
+        width:250px;
+        height: 10px;
+        background-color: #000;
+        margin-top:700px;
+        margin-left:35px;
+    }
+    
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:700px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
         width:320px;
-        height:800px;
+        height:600px;
         margin-left:-160px;
     }
     
-    /* COURO */
-    figure#couro{
+    p.form-title{
         position: absolute;
-        margin-top:150px;
-        margin-left:50px;
-    }
-    
-    p.couro-title{
         font-size: 14px;
-        font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
+        font-weight: 600;
+        margin-left:15px;
         margin-top:40px;
+        text-align: center;
+        width:300px;
     }
     
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
+    /* FORM 1 */
+    div#form-1{
         position: absolute;
-        margin-top:600px;
-        margin-left:50px;
+        margin-top:200px;
+        margin-left:10px;
     }
     
-    p.conforto-anatomico-title{
+    p.form-title-1{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 200px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:400px;
+        margin-left:10px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 232px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:650px;
+        margin-left:10px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 152px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:10px;
+        margin-top:1200px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
         text-transform: uppercase;
     }
     
-    img.tec-icon-2{
+    div#divider_2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
     }
     
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
+        position: absolute;
+        width:100%;
+        height:1100px;
+        background-color:#ebebeb;
+        margin-top:2050px;
     }
     
-    div#divider_tec_2{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
+    article#logotipos-lojas{
+        width:320px;
+        height:1100px;
+        margin-left:-160px;
     }
     
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:1050px;
+        float: left;
+        width:350px;
+        height: 500px;
+        margin-left:-20px;
+        margin-top:60px;
+    }
+    
+    img.logos{
         margin-left:50px;
-    }
-    
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:1500px;
-        margin-left:50px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_4{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:45px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:1950px;
-        margin-left:50px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:2300px;
-        margin-left:50px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
+        margin-bottom:30px;
     }
     
     /* FOOTER RESPONSIVE */
@@ -4642,7 +4398,7 @@
       width:100%;
       height: 810px;
       background-color:#231f20;
-      margin-top:3200px;
+      margin-top:3150px;
     }
 
     article#footer-responsive{
@@ -5007,307 +4763,270 @@
       -o-background-size: cover; /*Css Opera*/
     }
 
-   /* TECNOLOGIA INTRO RESPONSIVE */
-    section#tecnologia-intro-responsive{
+    /* ONDE ENCONTRAR INTRO RESPONSIVE */
+    section#onde-encontrar-intro-responsive{
         position: absolute;
         width:100%;
-        height:600px;
+        height:750px;
     }
     
-    article#tecnologia-intro-responsive{
+    article#onde-encontrar-intro-responsive{
         width:280px;
-        height:600px;
+        height:700px;
         margin-left:-140px;
     }
     
-    div#tecnologia-intro-title{
+    div#onde-encontrar-title{
         position: absolute;
         width:100%;
         height: 200px;
-        background-color:#d3a780;
+        background-color:#3c3c3b;
     }
     
-    p.tecnologia-title{
+    p.onde-encontrar-title{
         position: absolute;
-        font-size:36px;
+        font-size:30px;
         color:#fff;
-        text-transform: uppercase;
         font-weight: 600;
-        margin-left:20px;
-        margin-top:80px;
+        text-transform: uppercase;
+        margin-left:0px;
+        margin-top:70px;
+        text-align: center;
     }
     
-    div#tecnologia-bg{
+    div#onde-encontrar-bg{
         position: absolute;
         width:100%;
         height: 300px;
-        margin-top:200px;
-        background: url(../img/tecnologia-bg.jpg) no-repeat center center;
+        background:url(../img/bg-onde-encontrar.jpg) no-repeat center center;
       background-size: cover; /*Css padrão*/
       -webkit-background-size: cover; /*Css safari e chrome*/
       -moz-background-size: cover; /*Css firefox*/
       -ms-background-size: cover; /*Css IE */
       -o-background-size: cover; /*Css Opera*/
+        margin-top:200px;
     }
     
-    div#tecnologia-info-border{
-        position: absolute;
-        float:left;
-        background-color:#fff;
-        margin-left:-10px;
-        margin-top:450px;
-        padding: 10px 10px 10px 10px;
-        display: none;
-    }
-    
-    p.tecnologia-info-border{
-        font-size:10px;
-        text-transform: uppercase;
-        font-weight: 600;
-        line-height: 100%;
-        border:1px solid #000;
-        padding: 20px 20px 20px 20px;
-        text-align:left;
-    }
-    
-    div#divider{
-        position: absolute;
-        width:240px;
-        height:10px;
-        background-color:#000;
-        margin-top:700px;
-        margin-left:20px;
-    }
-    
-    div#tecnologia-intro-title-2{
+    div#onde-encontrar-title-2{
         position: absolute;
         width:100%;
-        height: 200px;
-        background-color:#3c3c3b;
+        height:200px;
+        background-color:#d3a780;
         margin-top:500px;
     }
     
-    p.tecnologia-bg-title{
+    p.onde-encontrar-title-2{
         position: absolute;
-        float: left;
         font-size:18px;
+        color:#fff;
         text-transform: uppercase;
         font-weight: 600;
-        color:#fff;
         line-height: 100%;
-        margin-left:30px;
-        margin-top:70px;
         text-align: center;
+        margin-top:60px;
+        margin-left:25px;
     }
     
-    /* TECNOLOGIA DESCRICAO */
-    section#tecnologia-descricao{
+    div#divider_1{
+        position: absolute;
+        width:210px;
+        height: 10px;
+        background-color: #000;
+        margin-top:700px;
+        margin-left:35px;
+    }
+    
+    /* ONDE ENCONTRAR FORM */
+    section#onde-encontrar-form{
         position: absolute;
         width:100%;
-        height: 800px;
-        margin-top:700px;
+        height: 600px;
+        margin-top:760px;
     }
     
-    article#tecnologia-descricao{
+    article#onde-encontrar-form{
+        position: absolute;
         width:280px;
-        height:800px;
+        height:600px;
         margin-left:-140px;
     }
     
-    /* COURO */
-    figure#couro{
+    p.form-title{
         position: absolute;
-        margin-top:150px;
-        margin-left:30px;
-    }
-    
-    p.couro-title{
         font-size: 14px;
-        font-weight: 600;
-        color:#296263;
         text-transform: uppercase;
-    }
-    
-    img.tec-icon-1{
-        position: absolute;
-        width:90px;
+        font-weight: 600;
         margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.couro-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_1{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
         margin-top:40px;
+        text-align: center;
+        width:300px;
     }
     
-    /* CONFORTO ANATOMICO */
-    figure#conforto-anatomico{
+    /* FORM 1 */
+    div#form-1{
         position: absolute;
-        margin-top:600px;
-        margin-left:30px;
+        margin-top:200px;
+        margin-left:-10px;
     }
     
-    p.conforto-anatomico-title{
+    p.form-title-1{
         font-size: 14px;
         font-weight: 600;
-        color:#296263;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 200px 8px 20px;
+    }
+    
+    /* FORM 2 */
+    div#form-2{
+        position: absolute;
+        margin-top:400px;
+        margin-left:-10px;
+    }
+    
+    p.form-title-2{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 232px 8px 20px;
+    }
+    
+    /* FORM 3 */
+    div#form-3{
+        position: absolute;
+        margin-top:650px;
+        margin-left:-10px;
+    }
+    
+    p.form-title-3{
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border:2px solid #000;
+        padding: 8px 152px 8px 20px;
+    }
+    
+    
+    select.estado{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:18px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    select.cidade{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:65px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    select.bairro{
+        position: absolute;
+        float: left;
+        margin-left:0px;
+        margin-top:110px;
+        border-radius: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size:12px;
+        text-transform: uppercase;
+        border-radius: 0 none;
+        outline: 0;
+        background:none;
+        padding-left:10px;
+        -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+        -moz-appearance: none; /* Remove estilo padrão do FireFox */
+        appearance: none; /* Remove estilo padrão do FireFox*/
+        border:1px solid #000;
+        width:300px;
+        height: 30px;
+    }
+    
+    
+    /* LOJAS ONLINE TITLE */
+    div#lojas-online-title{
+        position: absolute;
+        margin-left:-10px;
+        margin-top:1200px;
+    }
+    
+    p.lojas-online-title{
+        font-size: 18px;
+        font-weight: 600;
         text-transform: uppercase;
     }
     
-    img.tec-icon-2{
+    div#divider_2{
         position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
+        width:80px;
+        height:3px;
+        background-color:#000;
+        margin-top:20px;
     }
     
-    p.conforto-anatomico-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_2{
+    /* LOGOTIPOS DAS LOJAS */
+    section#logotipos-lojas{
         position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:58px;
+        width:100%;
+        height:1100px;
+        background-color:#ebebeb;
+        margin-top:2050px;
     }
     
-    /* MEMORIA PERMANENTE */
-    figure#memoria-permanente{
+    article#logotipos-lojas{
+        width:280px;
+        height:1100px;
+        margin-left:-140px;
+    }
+    
+    figure#logotipos-lojas{
         position: absolute;
-        margin-top:1050px;
-        margin-left:30px;
+        float: left;
+        width:350px;
+        height: 500px;
+        margin-left:-40px;
+        margin-top:60px;
     }
     
-    p.memoria-permanente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
+    img.logos{
+        margin-left:50px;
+        margin-bottom:30px;
     }
-    
-    img.tec-icon-3{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.memoria-permanente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_3{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:95px;
-    }
-    
-    /* ABSORCAO E DESSORCAO */
-    figure#absorcao-e-dessorcao{
-        position: absolute;
-        margin-top:1500px;
-        margin-left:30px;
-    }
-    
-    p.absorcao-e-dessorcao-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-4{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.absorcao-e-dessorcao-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    div#divider_tec_4{
-        position: absolute;
-        width:70px;
-        height: 3px;
-        background-color:#73cccc;
-        margin-top:45px;
-    }
-    
-    /* SOLADO RESISTENTE */
-    figure#solado-resistente{
-        position: absolute;
-        margin-top:1950px;
-        margin-left:30px;
-    }
-    
-    p.solado-resistente-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-5{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.solado-resistente-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
-    /* ANTI-BACTERIAS */
-    figure#anti-bacterias{
-        position: absolute;
-        margin-top:2300px;
-        margin-left:30px;
-    }
-    
-    p.anti-bacterias-title{
-        font-size: 14px;
-        font-weight: 600;
-        color:#296263;
-        text-transform: uppercase;
-    }
-    
-    img.tec-icon-6{
-        position: absolute;
-        width:90px;
-        margin-left:-10px;
-        margin-top:-100px;
-    }
-    
-    p.anti-bacterias-text{
-        font-size: 12px;
-        width:230px;
-    }
-    
     /* FOOTER RESPONSIVE */
     footer#footer-responsive{
       width:100%;
       height: 810px;
       background-color:#231f20;
-      margin-top:3200px;
+      margin-top:3150px;
     }
 
     article#footer-responsive{
